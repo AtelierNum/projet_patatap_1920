@@ -1,0 +1,92 @@
+
+PROJET CODE CREATIF - MARIE SAMBRON I2B
+
+PATATAP
+
+
+CHOIX ARTISTIQUES :
+
+Mon Patatap s’inspire de l’ambiance et de l’univers japonais. 
+Il comporte des sons que l’on peut entendre au sein de la nature et de certaines villes du Japon. 
+Les couleurs choisies pour mon projet sont les plus symboliques du pays ; on peut les retrouver sur le drapeau du Japon, les tenues traditionnelles,
+les estampes et les films d’animation par exemples (rouge, blanc, orange, rose pâle et bleu foncé).
+
+SOURCES DES SONS :
+
+- Sound01 (bird): https://freesound.org/people/prevanur/sounds/350633/
+
+- Sound02 (traditional Asian percussion): https://freesound.org/people/MATTIX/sounds/445633/
+
+- Sound03 (katana) : https://freesound.org/people/Taira%20Komori/sounds/215033/
+
+- Sound04: (Tokyo narita) https://freesound.org/people/milton./sounds/81166/
+
+- Sound05: (Japan school bell): https://freesound.org/people/poshalas/sounds/439444/
+
+- Sound06: (train door beeps): https://freesound.org/people/InspectorJ/sounds/346572/
+
+- Sound07: (wave close coast small): https://freesound.org/people/klankbeeld/sounds/394962/
+
+- Sound08 (temple Kyoto bell) : https://freesound.org/people/shinephoenixstormcrow/sounds/337048/
+
+- Sound09: (Japanese musical instrument 1): https://freesound.org/people/JohnLaVine333/sounds/81529/
+
+- Sound10 (Japanese hello): https://freesound.org/people/Reitanna/sounds/235021/
+
+- Sound11: (water drop 1): https://freesound.org/people/Quistard/sounds/166818/
+
+- Sound12: (frogs) https://freesound.org/people/macdaddyno1/sounds/396490/
+
+- Sound13: (Cicadas) https://freesound.org/people/Exom%C3%A8ne/sounds/317472/
+
+- Sound14 (nature, wind bell): https://freesound.org/people/Taira%20Komori/sounds/212818/
+
+- Sound15: (water drop2): https://freesound.org/people/Adam_N/sounds/166316/
+
+- Sound16: (Japanese words, yoroshiku): https://freesound.org/people/Alivvie/sounds/323203/
+
+- Sound17: (Open close fusuma) https://freesound.org/people/Taira%20Komori/sounds/212021/
+
+- Sound18: (Okinawa Japan clogs): https://freesound.org/people/morgantj/sounds/59592/
+
+- Sound19 (impact shatter): https://freesound.org/people/LiamG_SFX/sounds/323070/
+
+- Sound20: (train station): https://freesound.org/people/jochen1988/sounds/420645/
+
+- Sound21: (Japanese musical instruments 2) https://freesound.org/people/JohnLaVine333/sounds/81528/
+
+- Sound22 (Open umbrella) : https://freesound.org/people/Hawkeye_Sprout/sounds/469106/
+
+- Sound23 (falling leaves) : https://freesound.org/people/AmberdeMeillon/sounds/443065/
+
+- Sound24 (sea rocks and water): https://freesound.org/people/arnaud%20coutancier/sounds/58167/
+
+- Sound25 (chimes): https://freesound.org/people/bliindness/sounds/491652/
+
+- Sound26: (festival fireworks) https://freesound.org/people/SamuelGremaud/sounds/435729/
+
+
+INSPIRATIONS ET AUTRES SOURCES  : 
+
+Pour les animations: 
+- https://p5js.org/examples/
+- https://zzz.dog/shapes
+- https://ateliernum.github.io/projet_patatap_1819/
+
+Pour les sons: 
+- https://freesound.org/
+- https://p5js.org/reference/#/p5.SoundFile
+- https://fr.wikipedia.org/wiki/100_sons_naturels_du_Japon
+
+Pour les couleurs: 
+- https://www.toutes-les-couleurs.com/code-couleur-rvb.php
+- https://i.pinimg.com/originals/c7/74/d8/c774d8d49db398588f1b3b326f5b604d.jpg (thème couleur)
+
+Pour le GIF: 
+- https://icecreamapps.com/fr/Screen-Recorder/thankyou.html?v=5.996&f=110
+
+
+
+
+
+

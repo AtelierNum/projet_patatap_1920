@@ -1,0 +1,14 @@
+PATATAP 
+
+Eloi DARDENNE 
+
+
+
+Choix artistiques : 
+Pour ce projet sur le patatap j'ai décidé de travailler sur un univers électronique en reprenant plusieurs kicks, sons psychédéliques ou acid.
+L'univers graphique est inspiré de ce que l'on peut trouver dans les maping à thème techno, avec des couleurs rouges, blanche et un fond noir.
+Les animations sont réalisées uniquement grâce à mes connaissances, je ne suis pas aller copier-coller du code sur internet. 
+Mon principal problème a été d'avoir des animations complexe et fluide à la foi. 
+
+Sources : 
+Les 26 pistes sonores proviennent du site www.freesound.org

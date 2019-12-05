@@ -1,0 +1,32 @@
+J’ai chois de prendre comme thème la mer pour ainsi permettre au spectateur de voyager et mettre en valeur ce milieu que j’affectionne. L’aspect graphique se compose principalement de forme circulaire et sinusoïdale mise à part le phare ou l’hélice qui ne sont pas issue de la nature et vont ainsi prendre des formes rectangulaires. Pour les son on retrouve les bruits d ‘eau, de vague, de gouttes, mais aussi des sons liés aux animaux, à la météo. Les sons issues de la nature permettent un aspect figuratif aux animations. 
+
+
+
+Mes sons: 
+
+freesound.org :
+Son 1 (« whale »), Son 3 (« xylophone ») Son 4(«drop of water »), Son 5 (« storm »), Son 6 
+(« water »), Son 11 (« Boat horn »), Son 15 (« bite »), Son 17(« wind »), Son 18 (« Boat »), Son 22 (« rain ») Son 23 (« crab »), Son 25 (« bubble »), 
+
+ww.sound-fishing.net :
+Son 2 (« petite vaque »),Son 9 (« splash »),  Son 10(« bulles »), Son 11 (« mouette »), Son 12(« pluie »), Son 13 (« grosse vague »), Son 16(« grenouille »), Son 20(« goutte »), Son 21(« baleine »), Son 24 (« pluie »),  Son 26 (« grosse vague »)
+
+
+Youtube.com :
+Son 7 (Sous l’ocean »), Son 14 (« onde sonore de bateau »), Son 19 (« Celine Dion-I’m Alive ») 
+
+
+Inspirations pour les animations :
+
+Courbe : https://p5js.org/examples/math-sine-wave.html
+Ellipse : https://p5js.org/reference/#/p5/ellipseMode
+Polygones : https://p5js.org/examples/form-regular-polygon.html
+Vague : https://p5js.org/examples/math-noise-wave.html
+Rectangles et angles : https://p5js.org/reference/#/p5/rect
+Bulles : https://p5js.org/examples/motion-bouncy-bubbles.html
+
+
+Pour les différentes couleurs et tons : web-color.aliasdmc.fr/
+
+
+Clément Chevalier I2A

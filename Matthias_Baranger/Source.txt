@@ -1,0 +1,6 @@
+Pour le projet patatap, mon objectif numéro 1 était que l'ensemble du code fonctionne, donc je n'ai pas de style défini.
+Mais mon style serait davantage un jeu, l'objectif serait de trouver des chansons et de les rassembler. 
+Donant un style final coloré dans une ambiance décalée.
+
+Le son est principalement choisi sur le site FreeSound.fr et les musiques on été prises sur YouTube puis découpées sur audacity.
+Les animations présentes dans mon projet sont inspirées des animations des élèves de l'an dernier.

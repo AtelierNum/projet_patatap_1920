@@ -1,0 +1,89 @@
+DESCRIPTION
+
+Mon patatap abordant l’univers de l’électro mes choix sonores se sont porté principalement sur des sons cours, électronique et ponctuer de quelques notes de piano ou guitare. Pour les couleurs j’ai chois un bleu roi pour le fond exprimant la nuit et principalement pour contraster avec des couleurs joyeuse comme du jaune, du orange, du framboise, du rose et du blanc. En dehors des animations rappelant les flux sonores, toutes sont basé sur des formes géométrique tel que le rond et le carré.
+
+
+SOURCES
+
+Lettre A 
+Sound01 : https://freesound.org/people/metmass/sounds/123079/
+
+Lettre Z 
+Sound02 : https://freesound.org/people/waveplay_old/sounds/415506/
+
+Lettre E
+ Sound03 : https://freesound.org/people/longe630/sounds/178490/
+
+Lettre R
+Sound04 : https://freesound.org/people/waveplay_old/sounds/222061/
+
+Lettre T 
+Sound05 : https://freesound.org/people/dahovv/sounds/65772/
+
+Lettre Y
+Sound06 : https://freesound.org/people/mastertronic/sounds/65226/
+
+Lettre U 
+Sound07 : https://freesound.org/people/mastertronic/sounds/65220/
+
+Lettre I
+Sound08 : https://freesound.org/people/mastertronic/sounds/65148/
+
+Lettre O
+Sound09 : https://freesound.org/people/neatonk/sounds/148272/
+
+Lettre P 
+Sound010 : https://freesound.org/people/Aiwha/sounds/196106/
+Animation : Patatap de Simon Heurtebis.
+
+Lettre Q
+Sound011 : https://freesound.org/people/OttoRecV8/sounds/185535/
+
+Lettre S
+Sound012 : https://freesound.org/people/pschrandt/sounds/428078/
+
+Lettre D 
+Sound013 : https://freesound.org/people/Streetpoptunez/sounds/413072/
+Animation : Patatap de Simon Heurtebis.
+
+Lettre F 
+Sound014 : https://freesound.org/people/SpankMyFilth/sounds/215206/
+
+Lettre G 
+Sound015 : https://freesound.org/people/seamusdes30/sounds/419658/
+
+Lettre H 
+Sound016 : https://freesound.org/people/copyc4t/sounds/234647/
+
+Lettre J 
+Sound017 : https://freesound.org/people/waveplay_old/sounds/233553/
+
+Lettre K 
+Sound018 : https://freesound.org/people/copyc4t/sounds/234700/
+
+Lettre L 
+Sound019 : https://freesound.org/people/kwahmah_02/sounds/246339/
+
+Lettre M  
+Sound020 : https://freesound.org/people/Tr4ck3r/sounds/157315/
+Animation : Patatap de Simon Heurtebis.
+
+Lettre W 
+Sound021 : https://freesound.org/people/sagitaurius/sounds/93470/
+
+Lettre X 
+Sound022 : https://freesound.org/people/sagitaurius/sounds/93513/
+Animation : Patatap de Jeanne Verstraete.
+
+Lettre C 
+Sound023 : https://freesound.org/people/SkibkaMusic/sounds/478887/
+
+Lettre V 
+Sound024 : https://freesound.org/people/suonho/sounds/58420/
+
+Lettre B 
+Sound025 : https://freesound.org/people/Dodgy%20C/sounds/72046/
+
+Lettre N
+Sound026 : https://freesound.org/people/suonho/sounds/58420/
+Animation : Patatap de Eliott Chevalier.

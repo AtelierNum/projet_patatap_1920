@@ -1,0 +1,12 @@
+Pour l'univers choisit (Minecraft) j'ai décidé de partir sur des formes simples, tel que des carrés, rectangles, cercles,...
+Les couleurs sont souvent basiques, et le fond gris, donne un aspect neutre.
+Minecraft est avant tout un jeu de construction, donc chacun peut voir ou construire ce qu'il veut avec mon site.
+
+Sources:
+https://minecraft-fr.gamepedia.com/Minecraft_Wiki
+C'est le site informatif de minecraft, j'y est téléchargé tout les sons.
+
+Pour le code, mon seul support fut, notre cours et https://github.com/b2renger/Introduction_p5js (Votre site d'introduction).
+J'ai voulu approfondir et encrer mes bases du code, donc ne pas allé sur internet pour copier-coller des bout de codes.
+
+Ce fut assez dur, mais j'ai pu découvrir les choses par moi-même, comme avec ellipseMode(), je n'arrivais pas à centrer mon ellipse, puis, j'ai essayé de découvrir de nouvelles fonction, et en partant du rectMode(), j'ai pu trouver.

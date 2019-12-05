@@ -1,0 +1,11 @@
+Mon patatap porte sur une vidéo de FlashBoy.mp4. Cet artiste est un danseur, éditeur et beatmaker, qui s’est principalement fait connaître par celle-ci : https://www.youtube.com/watch?v=-4R0WCWOzv0. Je me suis donc inspiré de l’univers de sa vidéo qui est sur le thème de Naruto, en incorporant des formes en lien avec ce thème, et en reprenant ses 3 principales couleurs (rose, bleu, rouge) en plus du blanc.
+
+Tous les sons proviennent de sa vidéo : FLASHBOY - Naruto Type Beat "Sharingan" Sasuke Theme Trap Remix (https://www.youtube.com/watch?v=-4R0WCWOzv0). Je l’ai contacté pour pouvoir utiliser les sons de sa vidéo et sa réponse fut positive.
+
+https://github.com/b2renger/p5js_patterns
+https://www.openprocessing.org/browse/?q=fleur&time=anytime&type=all#
+https://p5js.org/es/examples/hello-p5-simple-shapes.html
+https://ateliernum.github.io/projet_patatap_1819/Chopineaux_Ronan/index.html : de certaines formes (« o » et « h »).
+https://github.com/AtelierNum/projet_patatap_1819/blob/master/Heurtebise_Simon/sketch.js :  inspiration de certaines formes (« q » et « w »).
+https://p5js.org/reference/
+https://www.lyceelecorbusier.eu/p5js/?p=1864

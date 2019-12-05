@@ -1,0 +1,3 @@
+Ce Patatap reproduit un univers de concert. Les différentes waves peuvent représenter la musique que joue les artistes. Les couleurs chaudes représentent bien l’ambiance d’une salle de concert, où la foule est énergique. Ainsi, le couleur jaune peut représenter les projecteurs qui illuminent la salle, les petites boules qui descendent : les confettis à la fin du concert.
+La totalité des sons sont tirés de la bibliothèque de sons libres de droits : FreeSound. (https://freesound.org/browse/)
+La totalité des mes animations sont prises du cours sur GitHub. Elles sont pour une mineur partie reproduites à l’identique, mais la plus part sont modifiées afin d’obtenir une animation personnalisée. (https://github.com/b2renger/p5js_codecreatif).

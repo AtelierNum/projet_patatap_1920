@@ -1,0 +1,32 @@
+À travers ces différentes animations, j’ai voulu réaliser un univers composé de couleurs et de formes géométriques aux styles rétro, pop et mouvementé. Pour compléter cet univers j’ai choisi des animations à la sonorité à la fois moderne et vintage qui se répètent de différentes manières.  Certains sons représentent alors des sonorités que l’on retrouve dans la musique électronique d’aujourd’hui,  tandis que d’autres sont des voix, des bruits de téléphone rappelant ce coté vintage. Nous retrouvons également ce contraste dans le choix graphique avec d’un côté des couleurs flashes et pops, et de l’autre des formes plus classiques et géométriques.
+Mon but était alors de créer un ensemble joyeux, coloré et dynamique, mais surtout de créer un ensemble harmonieux et cohérent.
+
+Sources : 
+
+Lettre A : son (https://freesound.org/people/tim.kahn/sounds/93785/) animation (inspiration : https://github.com/b2renger/p5js_patterns)
+Lettre B : son (http://bbcsfx.acropolis.org.uk/)
+Lettre C : son (http://bbcsfx.acropolis.org.uk/)
+Lettre D : son (https://freesound.org/people/silversatyr/sounds/113364/)
+Lettre E : son (https://freesound.org/people/wubitog/sounds/189992/) animation (inspiration : https://ateliernum.github.io/projet_patatap_1819/Colloc_Aurelien/index.html )
+Lettre F : son (https://freesound.org/people/cdonahueucsd/sounds/337133/) animation ()
+Lettre G :son (https://freesound.org/people/Dean-Raul_DiArchangeli/sounds/116390/) animation ()
+Lettre H : son (https://freesound.org/people/HerbertBoland/sounds/29679/) animation ()
+Lettre I : son (https://freesound.org/people/csmag/sounds/203608/) animation ()
+Lettre J : son (http://bbcsfx.acropolis.org.uk/) animation ()
+Lettre K :son (https://freesound.org/people/zgump/sounds/83249/) animation ()
+Lettre L : son (https://freesound.org/people/frankum/sounds/453072/) animation ()
+Lettre M : son (https://freesound.org/people/Reitanna/sounds/344001/) animation ()
+Lettre N : son (https://freesound.org/people/frankum/sounds/453072/) animation ()
+Lettre O : son (https://freesound.org/people/Erokia/sounds/337304/) animation (inspiration : https://github.com/AtelierNum/projet_patatap_1819/blob/master/Schaeffer_Emilie/sketch.js)
+Lettre P : son (http://bbcsfx.acropolis.org.uk/) animation (inspiration : https://github.com/AtelierNum/projet_patatap_1819/blob/master/Schaeffer_Emilie/sketch.js)
+Lettre Q :son (https://freesound.org/people/NoiseCollector/sounds/15449/) animation ()
+Lettre R : son (http://bbcsfx.acropolis.org.uk/) animation (inspiration: https://github.com/AtelierNum/projet_patatap_1819/blob/master/Schaeffer_Emilie/sketch.js)
+Lettre S : son (https://freesound.org/people/InspectorJ/sounds/411643/ ) animation ()
+Lettre T : son (https://freesound.org/people/LittleRobotSoundFactory/sounds/274211/) animation (inspiration :https://ateliernum.github.io/projet_patatap_1819/Perouse_Victor/index.html)
+Lettre U : son (https://freesound.org/people/NoiseCollector/sounds/15449/) animation ()
+Lettre V : son ( https://freesound.org/people/Jagadamba/sounds/254386/ ) animation (inspiration : https://ateliernum.github.io/projet_patatap_1819/Mahe_Clara/index.html)
+Lettre W : son (https://freesound.org/people/PearceL/sounds/361604/) animation ()
+Lettre X : son (https://freesound.org/people/StephenSaldanha/sounds/121971/) animation (inspiration : https://ateliernum.github.io/projet_patatap_1819/Mahe_Clara/index.html)
+Lettre Y : son (https://freesound.org/people/Erokia/sounds/400934/) animation ()
+Lettre Z : son (https://freesound.org/people/frankum/sounds/453072/) animation ()
+

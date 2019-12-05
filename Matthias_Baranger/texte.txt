@@ -1,0 +1,3 @@
+Pour le projet patatap, mon objectif numéro 1 était que l'ensemble du code fonctionnait et donc je n'ai pas de style défini.
+Mais mon style serait plus un jeu, l'objectif serait de trouver des chansons et de les rassembler. 
+Le style finale est donc quelque chose de coloré dans une ambiance décalé.

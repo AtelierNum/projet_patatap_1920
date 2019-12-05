@@ -1,0 +1,42 @@
+﻿Patatap                                                                         Paco Caillaud I2A
+
+
+J’ai commencé mon patatap en choisissant mes sons. Je voulais des sons électroniques voir mécanique. Je voulais une ambiance assez futuriste et punk. Avoir une ambiance sonore pesante mais intrigante.
+L’esthétique graphique est très digitale.  Pour garder une cohérence tout le long du patatap et renforcer l’ambiance sonore j’ai uniquement pris 4 couleurs. Noir, blanc et gris et pour contraster et donner un côté “vivant” un rouge sang. 
+
+
+Sources Patatap
+
+
+Beetle Jaws de Nightingale : Son1
+Face the World bassline de Jimevonloops : Son2 & Son3
+Ground Shaking bass add de Techseeker : Son4 et Son5
+Tank piano dream line 1 glitchcrush mix de Fakestarstudio : Son6
+GMS Talking Synth Line de Fakestarstudio : Son7
+Signs bass add de Techseeker : Son8
+Fluter Bass 1 de DjStylex  : Son9 & Son10
+Emf macbook white unibody data transmission subtle with stereo flying glitches and high tones de Soundholder : Son11
+Fluter Bass 2 de DjStylex : Son12
+Son13 pas retrouvé précisément mais pris sur looperman
+Son14 pas retrouvé précisément mais pris sur looperman
+Rev piano gmin de Fried Potato : Son15
+Frenchy bounce de The frenchykick : Son16
+Nirvanian dawn snare 2 de Xen0s : Son17
+Pulse 1 de Cameronmusic : Son18
+Nice samples vocal de Canerhasgone : Son19
+Robotic-voice de Derzruud : Son20
+Hihat-04 de Unfa : Son21
+21whistle de Fschaeffer : Son22 
+23 pas retrouvé précisément mais pris sur looperman
+Herench de Tim kahn : Son24
+Triangle 100 bpm 003 de Arseniiv : Son25
+Electronic explosion de Paulss83 : Son26
+
+
+L’animation du Son7 sur la touche U est inspiré de l’animation de la touche G sur le patatap de Arslan Safoui.
+L’animation du Son15 sur la touche G est faite à partir du code de Daniel Schiffman de la chaine The Coding Train sur la vidéo : “Coding Challenge #152: RDP Line Simplification Algorithm”
+https://www.youtube.com/watch?v=nSYw9GrakjY&t=588s&ab_channel=TheCodingTrain
+https://thecodingtrain.com/CodingChallenges/152-rdp-algorithm.html
+
+
+Sinon, le reste des animations on été créer par moi.

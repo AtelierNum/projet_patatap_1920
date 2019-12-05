@@ -1,0 +1,19 @@
+Explications
+
+Le sujet de mon Patatap est autour de l’abstraction grâce a diverses formes géométriques tout en gardant une cohérence au niveau des couleurs. 
+Pour les effets sonores je me suis en grande partie inspiré des sons de notifications et interactifs.
+
+Sources
+
+Effets sonores sont sous license Creative Commons venant du site notificationsounds.com
+sound12 - "This isn't you" par Kyle Dixon & Michael Stein remixé avec Ocenaudio
+sound15 - "Eleven" - Stranger Things par Kyle Dixon & Michael Stein remixé avec Ocenaudio
+sound20 - "Stock Still Going Down" - Valley of the Boom par Kyle Dixon & Michael Stein
+
+Sources d’aides
+
+https://github.com/b2renger/Introduction_p5js
+https://github.com/b2renger/p5js_codecreatif
+https://www.openprocessing.org/user/15033
+https://ateliernum.github.io/projet_patatap_1819/
+

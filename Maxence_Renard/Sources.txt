@@ -1,0 +1,24 @@
+Inspiration pour les formes: 
+
+
+-https://github.com/b2renger/Introduction_p5js
+
+-https://p5js.org/examples/form-star.html
+
+-https://p5js.org/examples/transform-translate.html
+
+-https://p5js.org/examples/transform-rotate.html
+
+-https://github.com/b2renger/p5js_patterns
+
+-https://p5js.org/examples/form-regular-polygon.html
+
+-https://p5js.org/examples/form-shape-primitives.html
+
+
+Bandes sons provenants des banques libre de droit suivantes: 
+
+https://lasonotheque.org/
+http://www.universal-soundbank.com/
+
+Certains ont été modifié par mes soins sur Audacity

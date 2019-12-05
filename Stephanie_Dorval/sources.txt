@@ -1,0 +1,24 @@
+Description : 
+
+Pour mon PATATAP, j’ai décidé de réaliser par moi-même un maximum de choses, je voulais quelque chose qui me ressemble. 
+
+Pour les couleurs, j’ai utilisé 2 bleu différents et 1 rose, le tout sur un fond bleu très foncé. Le choix s’est fait grâce au livre « L’Harmonie des Couleurs - Edition PANTONE » de Leatrice Eiseman qui propose un large choix de contrastes colorés.
+
+Pour les formes, j’ai mêlé le plein et le vide en jouant sur les contours et le remplissage.
+
+Je me suis d’abord attardé sur les animations avant de créer les sons. Mes animations peuvent être assez longues mais permettent une expérience :  dans chacune des animations, ce n’est pas seulement une forme qui apparaît mais plusieurs formes qui agissent entre elle. Ainsi le PATATAP offre à l’utilisateur deux manières de jouer sur le clavier. Il peut profiter lettre par lettre ou bien en appuyant sur plusieurs lettres simultanément.
+
+
+Sources :
+
+Animations 
+
+Les premières animations que j’ai créé ont été réalisées à partir du cours : « https://github.com/b2renger/p5js_codecreatif » (je pense aux ronds, aux carrés et aux fréquences sons)
+
+Ensuite, je me suis aventurée et j’ai créé toutes les animations seules avec ce qui avait été vu précédemment dans le cours.
+
+Sauf pour la lettre C où je suis allée voir ce code là :« https://processing.org/examples/star.html » 
+
+Sons
+
+J’ai créé tous les sons à partir du logiciel GARAGE BAND. Ils sont le plus souvent composés de guitare, de batterie, et accompagnés d’un drummer. Mes sons peuvent être assez longs mais c'est un choix et ça m'a permis de mettre mes animations plus en valeurs.

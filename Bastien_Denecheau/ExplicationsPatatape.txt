@@ -1,0 +1,13 @@
+Bastien Denecheau I2B
+
+L'univers de mon patatape appelé "Épectase" (Soit le fait de mourir pendant l'orgasme) est une combinaison de sons 
+provoquant le malaise. Pour contraster avec les sons bizzares, j'ai ajouté quelques sons de piano et de guitare ce 
+qui renforce l'aspect embarrassant. Aussi je suis resté dans des tonalités de couleurs bleutées et/ou rosâtres qui 
+expriment bien le froid et l'univers dans lequel on est projeté.
+
+La totalité des sons proviennent du site https://freesound.org/
+
+La quasi-totalité des animations sont improvisées et quelques unes sont inspirées du code de notre 
+cher ami Simon Heurtebise :
+
+https://github.com/AtelierNum/projet_patatap_1819/blob/master/Heurtebise_Simon/sketch.js

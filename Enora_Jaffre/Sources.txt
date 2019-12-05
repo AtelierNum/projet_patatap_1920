@@ -1,0 +1,122 @@
+Description des choix:
+Les couleurs rouges et vertes sont majoritairement présents
+dans ce patatap, en référence à Paprika, l'héroine de 
+l'animation japonaise du même nom de Satoshi Kon. 
+C'est la musique de la parade qui m'a donné l'idée 
+de ce patatape: la fracture à la réalité, des éléments 
+incohérents et le thème présent du cirque dans l'animation. 
+Le patatap se décroche finalement de l'oeuvre Animée pour 
+se réduire aux axes analysés, c'est à dire les couleurs 
+princapelement rouges et vertes, l'incohérence cartoonesque 
+et le cirque, nous sommes finalement loin des musiques 
+présentes dans Paprika.
+
+
+Sources des sons:
+
+sound00, pas d'animation
+YouTube Audio Labrary
+
+sound01
+BBC Sound Effects
+https://github.com/b2renger/p5js_codecreatif
+
+sound02
+BBC Sound Effects
+https://github.com/b2renger/p5js_codecreatif
+
+sound03
+BBC Sound Effects
+https://github.com/b2renger/p5js_codecreatif
+
+sound04
+BBC Sound Effects
+https://github.com/b2renger/p5js_codecreatif
+
+sound05
+BBC Sound Effects
+https://github.com/b2renger/p5js_codecreatif
+
+sound06
+BBC Sound Effects
+https://github.com/b2renger/p5js_codecreatif
+
+sound07
+YouTube Audio Labrary
+https://github.com/b2renger/p5js_codecreatif
+
+sound08
+BBC Sound Effects
+https://github.com/b2renger/p5js_codecreatif
+
+sound09
+BBC Sound Effects
+https://github.com/b2renger/p5js_codecreatif
+
+sound10
+BBC Sound Effects
+https://github.com/b2renger/p5js_codecreatif
+
+sound11
+BBC Sound Effects
+https://github.com/b2renger/p5js_codecreatif
+
+sound12
+BBC Sound Effects
+https://github.com/b2renger/p5js_codecreatif
+
+sound13
+BBC Sound Effects
+https://github.com/b2renger/p5js_codecreatif
+
+sound14
+BBC Sound Effects
+https://github.com/b2renger/p5js_codecreatif
+
+sound15
+BBC Sound Effects
+https://github.com/b2renger/p5js_codecreatif
+
+sound16
+BBC Sound Effects
+https://github.com/b2renger/p5js_codecreatif
+
+sound17
+BBC Sound Effects
+https://p5js.org/examples/motion-linear.html
+
+sound18
+BBC Sound Effects
+https://p5js.org/examples/motion-linear.html
+
+sound19
+YouTube Audio Labrary
+Cours
+
+sound20
+YouTube Audio Labrary
+Cours
+
+sound21
+YouTube Audio Labrary
+https://github.com/AtelierNum/projet_patatap_1819/blob/master/Herlem_Juliette/sketch.js
+
+sound22
+YouTube Audio Labrary
+https://p5js.org/examples/form-triangle-strip.html
+
+sound23
+YouTube Audio Labrary
+https://github.com/b2renger/p5js_codecreatif
+
+sound24
+YouTube Audio Labrary
+https://p5js.org/examples/transform-scale.html
+
+sound25
+YouTube Audio Labrary
+Tests perso
+
+sound26
+Freesound
+https://github.com/b2renger/p5js_codecreatif

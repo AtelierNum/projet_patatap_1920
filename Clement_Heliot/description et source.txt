@@ -1,0 +1,10 @@
+PATATAP :
+
+Entre musique et désordre, entre couleur et incolore, découvrez un univers décalé.
+Les inspirations viennent de plusieurs univers meme si les couleurs sont plus en accord.
+Le tout réuni forme un ensemble plutôt sympa a regarder, bon visionnage.
+
+SOURCES:
+
+Pour le graphisme, je me suis inspiré de ce que l’on pouvait trouvé sur GitHub, Pinterest, OpenProcessing et le Lycée Lecorbusier.
+Pour les sons, je n’ai recherché ceux ci que sur Freesound car il me paraissait cohérents avec ce que je voulais.

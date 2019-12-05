@@ -1,0 +1,12 @@
+
+
+Le cartoon est totalement l’inverse de ce que représente l’expérience de synesthésie cependant je trouvais amusant d’essayer de vulgarisé cela à l’aide de ces sonorité.
+
+Tous mes sons viennent de la bibliothèque de loop du logiciel « Logic pro X ».
+Les couleurs sont inspiré du film Enter the void, de Gaspard Noé. Ce film montre à la fois certaines expérience sous psychédéliques mais aussi et surtout l’expérience de la mort décrite comme le mélange des sens. Ce film illustre selon moi parfaitement la synesthésie.
+
+Je n’ai copié aucun code mais mélanger un peu tout ce que j’ai appris grâce aux cours de p5js mais aussi de processing, cela couplé aux nombreuses vidéos de la chaine youtube « the coding train ».
+
+
+
+

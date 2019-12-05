@@ -1,0 +1,19 @@
+Sources Patatap.
+
+J’ai cherché à harmoniser mes sons autours d’un univers électronique et Sci-Fi, ils proviennent tous de FreeSound.org . 
+
+Pour réaliser mes animations, je me suis aidé de :
+- Tutoriel p5js de CodeTraining sur YouTube
+- La librairie anime.js
+- Votre cours sur GitHub
+- Les Patatap des élèves de l’année dernière (Ronan, Eliott, etc)
+- OpenProcessing
+
+
+
+
+	
+
+
+
+

@@ -1,0 +1,8 @@
+J’ai choisi l’univers du rap pour mon patatap car j’en écoute beaucoup. Pour rendre quelque chose de plus personnel j’ai voulu créer les sons moi même à l’aide d’un logiciel, même si je ne n’en n’avais jamais utilisé auparavant, afin de découvrir également le travail de production sonore derrière les musiques que j’écoute tout les jours. Les couleurs que j’ai choisi pour les animations expriment la douceur, avec les roses pâles, mais aussi la force des instru et des paroles dégagées dans ces musiques, avec des tons plus sombres comme du prune. Les touches de jaune rappellent l’énergie que dégage certains rappeur.
+J’ai voulu faire des animations harmonieuses entre elles lorsqu’elles sont lancées en même temps car certaines touches jouées ensemble produisent une instru, je m’explique :
+Sur la première ligne du clavier E et R sont des mélodies de Drake et Damso qui peuvent être jouées simultanément avec A Z ou T  pour former une instru. Un ami m’a créé ces sons sur Ableton pour me montrer comment utiliser un logiciel son.
+Sur la 2e ligne, de Q à J les lettres jouées ensemble forment une instru que j’ai créée avec GarageBand.
+Sur la 3e ligne, les lettres W X C V jouées ensemble forment une instru que j’ai créée avec GarageBand également.
+Toutes les autres touches sont des sons que j’ai aussi produit avec GarageBand, plus courts, pour agrémenter les précédents ensembles.
+Au niveau des animations, je me suis inspiré des patataps de mes prédécesseurs pour certaines touches, pour les autres j’ai modifié le code que nous avions fait en classe afin de coder de nouvelles animations.
+

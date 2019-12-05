@@ -1,0 +1,80 @@
+Pour mes sons j'ai créé mes propres animations mais aussi regardé des cours sur internet (ex:TheCodeTrain, votre cours sur Github), et des exemples dans la librairies p5js. 
+J'ai choisi le noir et le blanc car je veux mettre en lumière/valeur les formes comme le rap mets en lumière les problèmes de société.
+Voici mes différents sons : 
+sound01 = kick.wav
+Créé par moi.
+
+sound02 = 808Bass.wav
+Créé suite au cours sur github https://github.com/b2renger/p5js_codecreatif
+
+sound03 = Tag.mp3
+Créé suite au cours sur github https://github.com/b2renger/p5js_codecreatif
+
+sound04 = Spin.wav
+Crée suite au cours sur github https://github.com/b2renger/p5js_codecreatif
+
+sound05 = Snare.wav
+Créé par moi.
+
+sound06 = Clap.wav
+Créé par moi.
+
+sound07 = Guitare.wav
+Créé suite au cours sur github https://github.com/b2renger/p5js_codecreatif
+
+sound08 = Piano.mp3
+Créé par moi.
+
+sound09 = Skurt.mp3
+Créé par moi.
+
+sound10 = hihat.wav
+Créé par moi.
+
+sound11 = Cymbal.flac
+Créé par moi.
+
+sound12 = Trap.wav
+Créé par moi.
+
+sound13 = 808Tom.wav
+Utilise https://p5js.org/examples/structure-functions.html
+
+sound14 = Cowbell.mp3
+Utilise https://p5js.org/examples/structure-functions.html
+
+sound15 = Son15.mp3
+Utilise https://p5js.org/examples/form-star.html
+
+sound16 = trompette.mp3
+Utilise https://p5js.org/examples/form-star.html
+
+sound17 = Scratch.wav
+Utilise https://p5js.org/examples/form-regular-polygon.html
+
+sound18 = Basspsy.mp3
+Créé par moi.
+
+sound19 = fx.mp3
+Utilise https://p5js.org/examples/form-star.html
+
+sound20 = click of water.wav
+Créé par moi.
+
+sound21 = clappowa.mp3
+Créé par moi.
+
+sound22 = Attackkick.wav
+Créé par moi
+
+sound23 = rim.mp3
+Créé par moi.
+
+sound24 = gun.mp3
+Créé par moi.
+
+sound25 = vhs.mp3
+Créé par moi.
+
+sound26 = pluck.wav
+Crée par moi.

@@ -1,0 +1,43 @@
+	Provenance FreeSound
+
+sound01 = loadSound("assets/epee1.wav")
+sound02 = loadSound("assets/epee2.wav")
+sound03 = loadSound("assets/epee3.wav")
+sound04 = loadSound("assets/epee4.wav")
+sound05 = loadSound("assets/epee5.wav")
+sound06 = loadSound("assets/arrow1.mp3")
+sound07 = loadSound("assets/arrow2.wav")
+sound08 = loadSound("assets/spear1.wav")
+sound09 = loadSound("assets/shield1.wav")
+sound10 = loadSound("assets/shield2.wav")
+sound11 = loadSound("assets/bell1.wav")
+sound12 = loadSound("assets/harp1.mp3")
+sound13 = loadSound("assets/flute1.wav")
+sound14 = loadSound("assets/flute2.wav")
+sound15 = loadSound("assets/mandolin1.wav")
+sound16 = loadSound("assets/mandolin2.wav")
+sound17 = loadSound("assets/horse1.wav")
+sound18 = loadSound("assets/horse2.wav")
+sound19 = loadSound("assets/march1.wav")
+sound20 = loadSound("assets/door1.wav")    
+sound23 = loadSound("assets/ambiance3.wav")
+sound25 = loadSound("assets/ambiance5.wav")
+sound26 = loadSound("assets/ambiance6.wav")
+
+
+	Provenance Youtube, modification Audacity
+
+sound21 = loadSound("assets/ambiance1.wav")
+sound22 = loadSound("assets/ambiance2.wav")
+sound24 = loadSound("assets/ambiance4.wav")
+
+
+
+	Inspirations du code
+
+https://ateliernum.github.io/projet_patatap_1819/
+https://patatap.com/
+https://p5js.org/
+
+> Annimations avec pour objectif une cohérence entre le visuel et le son, elements visuels représentatif de l'effet sonore
+> gamme chromatique de la France medievale.

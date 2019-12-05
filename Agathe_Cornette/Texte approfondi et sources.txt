@@ -1,0 +1,37 @@
+
+
+Mon Patatap:
+
+Le thème de mon Patatap s’inspire du Jazz, notamment d’un jazzman en particulier : Miles Davis. 
+J’ai souhaité travailler avec des couleurs chaudes et pastels, rappelant l’ambiance calme et chaude d’un concert de jazz. 
+J’ai tenté de construire mon patatap de manière à ce que l’utilisateur puisse découvrir la morphologie d’une musique (Ascenseur pour l’échafaud) rythmée par la trompette, instrument de prédilection de Miles Davis. 
+Cela me tenait à coeur de m’appuyer sur cette musique en particulier, car elle est selon moi un moyen pertinent de faire découvrir le jazz. 
+
+
+Sources:
+
+- La musique (Ascenseur pour l’échafaud), prise sur You tube: 
+https://www.youtube.com/watch?v=7Op1WDZk850
+
+Les codes: j’ai pris des codes depuis les bibliothèques d’openprocessing et de P5jS
+https://www.openprocessing.org/sketch/422446
+https://www.openprocessing.org/sketch/402961
+https://github.com/b2renger/p5js_codecreatif
+https://p5js.org/reference/#/p5/triangle
+https://p5js.org/examples/hello-p5-simple-shapes.html?fbclid=IwAR2D_7CPjVvih6ry09UAYVNFy9U7X4SwUyHTqstLUj2JHOrmlmVDzeQZP3Y
+https://p5js.org/examples/form-shape-primitives.html?fbclid=IwAR133c7KjvoGeQE8D2iBIAqlbO1xiJzv5LS6V9qHPkGXxpEWx9GfdfyLmhM
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

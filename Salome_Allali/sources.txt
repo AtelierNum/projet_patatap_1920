@@ -1,0 +1,60 @@
+
+For my patatap I wanted to start on a rather dark graphic line that reminds us of the night world to get closer to the style of electro music whether in color (blue and green) or in sounds that are short, so we can create music with the keyboard. My sounds also sound pretty electronic.  I was inspired by Martin Garrix's performance at the Vielles Charrues 2019
+
+
+Sound Sources : 
+
+FreeSound - 
+« Electro Snare » - Waveplay_old.
+
+« Electro Break1 » - LS 
+
+« Classic electro ‘’ Duueerr’’ sound » - Waveplay_old.
+
+« Bass b » - mastertronic
+
+« Kyulo » - mastertronic
+
+«44 synth » - mastertronic
+
+
+«foamo 11» - mastertronic
+
+
+« Sequential Pro 1 » - transceive
+
+
+« 80s KICK » - phluidbox
+
+
+« Electro kick1 » - OttoRecV8
+
+
+« Electronic Snare Drums #2 » - IanStarGem
+
+
+« Electronic Snare Drums #3 » - IanStarGem
+
+« Big Room House Essential Sounds » - xKPL_Klawzl
+
+J’ai repris plusieurs fois ces sons en les modifiant avec un logiciel.
+
+
+
+Code sources: 
+
+ - Cours de Code 
+
+ - Patatap des I3 : 
+Victor Perouse 
+Raphael Perraud
+Exbrayat Robin
+
+J’ai aussi été faire un tour sur OpenProcessing pour m’inspirer et cree des animations.
+
+
+
+
+
+
+
