@@ -51,7 +51,7 @@ Le théme de mon Patatp tourne autour de la culture japonaise et de la culture P
 
 <img src="Bastien_Denecheau/gif.gif" width="400" height="240" />
 
-[Cliquez ici pour jouer](https://ateliernum.github.io/projet_patatap_1920/Basient_Denecheau/code/index.html)
+[Cliquez ici pour jouer](https://ateliernum.github.io/projet_patatap_1920/Bastien_Denecheau/code/index.html)
 
 L'univers de mon patatape appelé "épectase" (Soit le fait de mourir pendant l'orgasme) est une combinaison de sons 
 provoquant le malaise. Pour contraster avec les sons bizzares, j'ai ajouté quelques sons de piano et de guitare ce 
