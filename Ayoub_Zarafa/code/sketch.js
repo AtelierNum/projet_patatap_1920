@@ -120,7 +120,7 @@ function preload() {
     ora = loadSound("assets/ora.mp3")
     verse13 = loadSound("assets/verse13.mp3")
     verse14 = loadSound("assets/verse14.mp3")
-    verse15 = loadSound("assets/verse15.mp3")
+    verse15 = loadSound("assets/VERSE15.mp3")
     verse16 = loadSound("assets/verse16.mp3")
 
 }
