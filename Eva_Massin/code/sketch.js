@@ -76,32 +76,32 @@ var F26V2xpos = [],
 
 function preload() {
 
-    F1 = loadSound('A6.wav');
-    F2 = loadSound('A00.wav');
-    F3 = loadSound('A90.wav');
-    F4 = loadSound('A1007.wav');
-    F5 = loadSound('A54.wav');
-    F6 = loadSound('A64.wav');
-    F7 = loadSound('A66.wav');
-    F8 = loadSound('A51.wav');
-    F9 = loadSound('A23.wav');
-    F10 = loadSound('A48.wav');
-    F11 = loadSound('A68.wav');
-    F12 = loadSound('A24.wav');
-    F13 = loadSound('A19.wav');
-    F14 = loadSound('A12.wav');
-    F15 = loadSound('A39.wav');
-    F16 = loadSound('A1009.wav');
-    F17 = loadSound('A93.wav');
-    F18 = loadSound('A59.wav');
-    F19 = loadSound('F19.wav');
-    F20 = loadSound('A89.wav');
-    F21 = loadSound('A91.wav');
-    F22 = loadSound('A57.wav');
-    F23 = loadSound('F45aigle.wav');
-    F24 = loadSound('A69.wav');
-    F25 = loadSound('A56.wav');
-    F26 = loadSound('A55.wav');
+    F1 = loadSound('Assets/A6.wav');
+    F2 = loadSound('Assets/A00.wav');
+    F3 = loadSound('Assets/A90.wav');
+    F4 = loadSound('Assets/A1007.wav');
+    F5 = loadSound('Assets/A54.wav');
+    F6 = loadSound('Assets/A64.wav');
+    F7 = loadSound('Assets/A66.wav');
+    F8 = loadSound('Assets/A51.wav');
+    F9 = loadSound('Assets/A23.wav');
+    F10 = loadSound('Assets/A48.wav');
+    F11 = loadSound('Assets/A68.wav');
+    F12 = loadSound('Assets/A24.wav');
+    F13 = loadSound('Assets/A19.wav');
+    F14 = loadSound('Assets/A12.wav');
+    F15 = loadSound('Assets/A39.wav');
+    F16 = loadSound('Assets/A1009.wav');
+    F17 = loadSound('Assets/A93.wav');
+    F18 = loadSound('Assets/A59.wav');
+    F19 = loadSound('Assets/F19.wav');
+    F20 = loadSound('Assets/A89.wav');
+    F21 = loadSound('Assets/A91.wav');
+    F22 = loadSound('Assets/A57.wav');
+    F23 = loadSound('Assets/F45aigle.wav');
+    F24 = loadSound('Assets/A69.wav');
+    F25 = loadSound('Assets/A56.wav');
+    F26 = loadSound('Assets/A55.wav');
 
 
 

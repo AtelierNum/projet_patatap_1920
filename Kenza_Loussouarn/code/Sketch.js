@@ -50,32 +50,32 @@ var ytarget = []
 
 function preload() {
 
-    sound01 = loadSound('../assets/238363__aleixcm__running-beach.wav');
-    sound02 = loadSound('../assets/21886__miscellany__a-seal-eats-2.wav');
-    sound03 = loadSound('../assets/450751__florianreichelt__sound-of-a-seal.wav');
-    sound04 = loadSound('..//assets/342161__ragu21__starling-bird-short-voice-03.mp3');
-    sound05 = loadSound('../assets/263600__loopudu__onewaveinteluknipah.wav');
-    sound06 = loadSound('../assets/34207__deleted-user-229898__birds-01.wav');
-    sound07 = loadSound('../assets/178871__hanbaal__yellow-wattlebird.wav');
-    sound08 = loadSound('../assets/340311__the-sean__osvaduthdust.wav');
-    sound09 = loadSound('../assets/326302__wagna__sandfall2.wav');
-    sound10 = loadSound('../assets/450849__kyles__nylon-rope-string-fishing-line-handling-tying-tie-tense-friction-works-at-low-level.wav');
-    sound11 = loadSound('../assets/62158__freesound61476__seagull-toy-mix.wav');
-    sound12 = loadSound('../assets/122314__anillogic__bk-wind-c2.wav');
-    sound13 = loadSound('../assets/418262__inspectorj__crow-call-single-a.wav');
-    sound14 = loadSound('../assets/456440__inspectorj__bird-whistling-robin-single-13.wav');
-    sound15 = loadSound('../assets/389620__silentstrikez__bathtub-wave-2.wav');
-    sound16 = loadSound('../assets/157184__rbirdwise__wave-on-shore-2.wav');
-    sound17 = loadSound('../assets/437687__samsterbirdies__loud-boat-horn.wav');
-    sound18 = loadSound('../assets/467301__xfixy8__sand-slidding-out-of-shovel-slowly.wav');
-    sound19 = loadSound('../assets/392027__rafaelpicoli__gaivota.wav');
-    sound20 = loadSound('../assets/234084__ivorybunker__wave-mallorca-13-ibsp2.wav');
-    sound21 = loadSound('../assets/471907__juanfg__friction-between-clothes.wav');
-    sound22 = loadSound('../assets/429209__michaelgillighan__09-rozar-papel.wav');
-    sound23 = loadSound('../assets/320166__arnaud-coutancier__one-wave.wav');
-    sound24 = loadSound('../assets/58416__darren1979__oceanwaves.wav');
-    sound25 = loadSound('../assets/471218__worldmaxter__wind-2.wav');
-    sound26 = loadSound('../assets/408217__ramiro1007__broom-on-sand.wav');
+    sound01 = loadSound('assets/238363__aleixcm__running-beach.wav');
+    sound02 = loadSound('assets/21886__miscellany__a-seal-eats-2.wav');
+    sound03 = loadSound('assets/450751__florianreichelt__sound-of-a-seal.wav');
+    sound04 = loadSound('assets/342161__ragu21__starling-bird-short-voice-03.mp3');
+    sound05 = loadSound('assets/263600__loopudu__onewaveinteluknipah.wav');
+    sound06 = loadSound('assets/34207__deleted-user-229898__birds-01.wav');
+    sound07 = loadSound('assets/178871__hanbaal__yellow-wattlebird.wav');
+    sound08 = loadSound('assets/340311__the-sean__osvaduthdust.wav');
+    sound09 = loadSound('assets/326302__wagna__sandfall2.wav');
+    sound10 = loadSound('assets/450849__kyles__nylon-rope-string-fishing-line-handling-tying-tie-tense-friction-works-at-low-level.wav');
+    sound11 = loadSound('assets/62158__freesound61476__seagull-toy-mix.wav');
+    sound12 = loadSound('assets/122314__anillogic__bk-wind-c2.wav');
+    sound13 = loadSound('assets/418262__inspectorj__crow-call-single-a.wav');
+    sound14 = loadSound('assets/456440__inspectorj__bird-whistling-robin-single-13.wav');
+    sound15 = loadSound('assets/389620__silentstrikez__bathtub-wave-2.wav');
+    sound16 = loadSound('assets/157184__rbirdwise__wave-on-shore-2.wav');
+    sound17 = loadSound('assets/437687__samsterbirdies__loud-boat-horn.wav');
+    sound18 = loadSound('assets/467301__xfixy8__sand-slidding-out-of-shovel-slowly.wav');
+    sound19 = loadSound('assets/392027__rafaelpicoli__gaivota.wav');
+    sound20 = loadSound('assets/234084__ivorybunker__wave-mallorca-13-ibsp2.wav');
+    sound21 = loadSound('assets/471907__juanfg__friction-between-clothes.wav');
+    sound22 = loadSound('assets/429209__michaelgillighan__09-rozar-papel.wav');
+    sound23 = loadSound('assets/320166__arnaud-coutancier__one-wave.wav');
+    sound24 = loadSound('assets/58416__darren1979__oceanwaves.wav');
+    sound25 = loadSound('assets/471218__worldmaxter__wind-2.wav');
+    sound26 = loadSound('assets/408217__ramiro1007__broom-on-sand.wav');
 }
 
 function setup() {

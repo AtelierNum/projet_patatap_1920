@@ -57,32 +57,32 @@ var ytarget = []
 
 function preload() {
 
-    sound1 = loadSound('../assets/118581__vann-westfold__daduda1.m4a');
-    sound2 = loadSound('../assets/54217__kaponja__guitar-arrpegio-2.wav');
-    sound3 = loadSound('../assets/401168__hap__gests4-1.mp3');
-    sound4 =loadSound('../assets/427307__bigmanjoe__old-piano-somber-chords1.m4a');
-    sound5 =loadSound('../assets/54210__kaponja__guitar-abstract-melody32.m4a');
-    sound6 =loadSound('../assets/387170__rdaly95__single-shot-gun.wav');
-    sound7 =loadSound('../assets/414357__korolkoff__finger-snapping.wav');
-    sound8 =loadSound('../assets/49658__sub-d__more-jazz-guitar1.wav');
-    sound9 =loadSound('../assets/261100__frankyboomer__jazz-loop1.wav');
-    sound10 =loadSound('../assets/118581__vann-westfold__daduda2.m4a');
-    sound11 =loadSound('../assets/177507__snapper4298__snap-6.wav');
-    sound12 =loadSound('../assets/91794__zinzan-101__soft-snare.wav');
-    sound13 =loadSound('../assets/54210__kaponja__guitar-abstract-melody31.m4a');
-    sound14 =loadSound('../assets/427307__bigmanjoe__old-piano-somber-chords3.m4a');
-    sound15 =loadSound('../assets/128306__dxe10__bass-slide.wav');
-    sound16 = loadSound('../assets/457490__tc630__5.wav');
-    sound17 =loadSound('../assets/317076__shpira__cymbal-big4-low.m4a');
-    sound18 =loadSound('../assets/261100__frankyboomer__jazz-loop2.wav');
-    sound19 =loadSound('../assets/46698__uauaua__9903132.wav');
-    sound20 =loadSound('../assets/118581__vann-westfold__daduda3.m4a');
-    sound21 =loadSound('../assets/54227__kaponja__guitar-chromatic-2.wav');
-    sound22 =loadSound('../assets/459305__soneproject__hat4d.flac');
-    sound23 =loadSound('../assets/118581__vann-westfold__daduda4.wav');
-    sound24 =loadSound('../assets/49658__sub-d__more-jazz-guitar2.wav');
-    sound25 =loadSound('../assets/54240__kaponja__guitar-jazz2.wav');
-    sound26 =loadSound('../assets/427307__bigmanjoe__old-piano-somber-chords2.m4a');
+    sound1 =loadSound('assets/118581__vann-westfold__daduda1.m4a');
+    sound2 =loadSound('assets/54217__kaponja__guitar-arrpegio-2.wav');
+    sound3 =loadSound('assets/401168__hap__gests4-1.mp3');
+    sound4 =loadSound('assets/427307__bigmanjoe__old-piano-somber-chords1.m4a');
+    sound5 =loadSound('assets/54210__kaponja__guitar-abstract-melody32.m4a');
+    sound6 =loadSound('assets/387170__rdaly95__single-shot-gun.wav');
+    sound7 =loadSound('assets/414357__korolkoff__finger-snapping.wav');
+    sound8 =loadSound('assets/49658__sub-d__more-jazz-guitar1.wav');
+    sound9 =loadSound('assets/261100__frankyboomer__jazz-loop1.wav');
+    sound10 =loadSound('assets/118581__vann-westfold__daduda2.m4a');
+    sound11 =loadSound('assets/177507__snapper4298__snap-6.wav');
+    sound12 =loadSound('assets/91794__zinzan-101__soft-snare.wav');
+    sound13 =loadSound('assets/54210__kaponja__guitar-abstract-melody31.m4a');
+    sound14 =loadSound('assets/427307__bigmanjoe__old-piano-somber-chords3.m4a');
+    sound15 =loadSound('assets/128306__dxe10__bass-slide.wav');
+    sound16 =loadSound('assets/457490__tc630__5.wav');
+    sound17 =loadSound('assets/317076__shpira__cymbal-big4-low.m4a');
+    sound18 =loadSound('assets/261100__frankyboomer__jazz-loop2.wav');
+    sound19 =loadSound('assets/46698__uauaua__9903132.wav');
+    sound20 =loadSound('assets/118581__vann-westfold__daduda3.m4a');
+    sound21 =loadSound('assets/54227__kaponja__guitar-chromatic-2.wav');
+    sound22 =loadSound('assets/459305__soneproject__hat4d.flac');
+    sound23 =loadSound('assets/118581__vann-westfold__daduda4.wav');
+    sound24 =loadSound('assets/49658__sub-d__more-jazz-guitar2.wav');
+    sound25 =loadSound('assets/54240__kaponja__guitar-jazz2.wav');
+    sound26 =loadSound('assets/427307__bigmanjoe__old-piano-somber-chords2.m4a');
 }
 
 function setup() {

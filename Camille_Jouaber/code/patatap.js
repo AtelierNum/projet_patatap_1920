@@ -50,32 +50,32 @@ var sound25Amp
 function preload() { //mettre les sons
     soundFormats('mp3', 'ogg');
     // sound01 = loadSound("assets/fichier.wav ou .mp3");
-    sound01 = loadSound("../assets/sound01.mp3");
-    sound02 = loadSound("../assets/sound02.mp3");
-    sound03 = loadSound("../assets/sound03.mp3");
-    sound04 = loadSound("../assets/sound04.mp3");
-    sound05 = loadSound("../assets/sound05.mp3");
-    sound06 = loadSound("../assets/sound06.mp3");
-    sound07 = loadSound("../assets/sound07.mp3");
-    sound08 = loadSound("../assets/sound08.mp3");
-    sound09 = loadSound("../assets/sound09.mp3");
-    sound10 = loadSound("../assets/sound10.mp3");
-    sound11 = loadSound("../assets/sound11.mp3");
-    sound12 = loadSound("../assets/sound12.mp3");
-    sound13 = loadSound("../assets/sound13.mp3");
-    sound14 = loadSound("../assets/sound14.mp3");
-    sound15 = loadSound("../assets/sound15.mp3");
-    sound16 = loadSound("../assets/sound16.mp3");
-    sound17 = loadSound("../assets/sound17.mp3");
-    sound18 = loadSound("../assets/sound18.mp3");
-    sound19 = loadSound("../assets/sound19.mp3");
-    sound20 = loadSound("../assets/sound20.mp3");
-    sound21 = loadSound("../assets/sound21.mp3");
-    sound22 = loadSound("../assets/sound22.mp3");
-    sound23 = loadSound("../assets/sound23.mp3");
-    sound24 = loadSound("../assets/sound24.mp3");
-    sound25 = loadSound("../assets/sound25.mp3");
-    sound26 = loadSound("../assets/sound26.mp3");
+    sound01 = loadSound("assets/sound01.mp3");
+    sound02 = loadSound("assets/sound02.mp3");
+    sound03 = loadSound("assets/sound03.mp3");
+    sound04 = loadSound("assets/sound04.mp3");
+    sound05 = loadSound("assets/sound05.mp3");
+    sound06 = loadSound("assets/sound06.mp3");
+    sound07 = loadSound("assets/sound07.mp3");
+    sound08 = loadSound("assets/sound08.mp3");
+    sound09 = loadSound("assets/sound09.mp3");
+    sound10 = loadSound("assets/sound10.mp3");
+    sound11 = loadSound("assets/sound11.mp3");
+    sound12 = loadSound("assets/sound12.mp3");
+    sound13 = loadSound("assets/sound13.mp3");
+    sound14 = loadSound("assets/sound14.mp3");
+    sound15 = loadSound("assets/sound15.mp3");
+    sound16 = loadSound("assets/sound16.mp3");
+    sound17 = loadSound("assets/sound17.mp3");
+    sound18 = loadSound("assets/sound18.mp3");
+    sound19 = loadSound("assets/sound19.mp3");
+    sound20 = loadSound("assets/sound20.mp3");
+    sound21 = loadSound("assets/sound21.mp3");
+    sound22 = loadSound("assets/sound22.mp3");
+    sound23 = loadSound("assets/sound23.mp3");
+    sound24 = loadSound("assets/sound24.mp3");
+    sound25 = loadSound("assets/sound25.mp3");
+    sound26 = loadSound("assets/sound26.mp3");
     
 
 

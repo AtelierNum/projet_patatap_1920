@@ -15,9 +15,9 @@ let sound09
 let sound10
 let sound10FFT
 let sound11
-var circle = [];
+var circles = [];
 var state = false;
-var square = [];
+var squares = [];
 var morph = [];
 let sound12
 let sound12FFT
@@ -45,32 +45,32 @@ let sound26
 
 function preload() {
     soundFormats('mp3', 'ogg');
-    sound01 = loadSound('../assets/hihat-dams.wav');
-    sound02 = loadSound('../assets/kick-dams.wav')
-    sound03 = loadSound('../assets/shaker-dams.wav')
-    sound04 = loadSound('../assets/synth-dams.wav')
-    sound05 = loadSound('../assets/synth-drake.wav')
-    sound06 = loadSound('../assets/test 2 bass.wav')
-    sound07 = loadSound('../assets/test 2 beat.wav')
-    sound08 = loadSound('../assets/test 2 flute aigu.wav')
-    sound09 = loadSound('../assets/test 2 flute grv.wav')
-    sound10 = loadSound('../assets/test 2 piano.wav')
-    sound11 = loadSound('../assets/test 2 rythme pianp.wav')
-    sound12 = loadSound('../assets/test 2 tititi.wav')
-    sound13 = loadSound('../assets/test 1 melody.wav')
-    sound14 = loadSound('../assets/test 1 boum.wav')
-    sound15 = loadSound('../assets/test 1 boum tch.wav')
-    sound16 = loadSound('../assets/test 1 bass 16-30-42-022.wav')
-    sound17 = loadSound('../assets/touche Y.wav')
-    sound18 = loadSound('../assets/touche U.wav')
-    sound19 = loadSound('../assets/touche i.wav')
-    sound20 = loadSound('../assets/touche o.wav')
-    sound21 = loadSound('../assets/touche P.wav')
-    sound22 = loadSound('../assets/touche k.wav')
-    sound23 = loadSound('../assets/touche L.wav')
-    sound24 = loadSound('../assets/touche M.wav')
-    sound25 = loadSound('../assets/touche B.wav')
-    sound26 = loadSound('../assets/touche N.wav')
+    sound01 = loadSound('assets/hihat-dams.wav');
+    sound02 = loadSound('assets/kick-dams.wav')
+    sound03 = loadSound('assets/shaker-dams.wav')
+    sound04 = loadSound('assets/synth-dams.wav')
+    sound05 = loadSound('assets/synth-drake.wav')
+    sound06 = loadSound('assets/test 2 bass.wav')
+    sound07 = loadSound('assets/test 2 beat.wav')
+    sound08 = loadSound('assets/test 2 flute aigu.wav')
+    sound09 = loadSound('assets/test 2 flute grv.wav')
+    sound10 = loadSound('assets/test 2 piano.wav')
+    sound11 = loadSound('assets/test 2 rythme pianp.wav')
+    sound12 = loadSound('assets/test 2 tititi.wav')
+    sound13 = loadSound('assets/test 1 melody.wav')
+    sound14 = loadSound('assets/test 1 boum.wav')
+    sound15 = loadSound('assets/test 1 boum tch.wav')
+    sound16 = loadSound('assets/test 1 bass 16-30-42-022.wav')
+    sound17 = loadSound('assets/touche Y.wav')
+    sound18 = loadSound('assets/touche U.wav')
+    sound19 = loadSound('assets/touche i.wav')
+    sound20 = loadSound('assets/touche o.wav')
+    sound21 = loadSound('assets/touche P.wav')
+    sound22 = loadSound('assets/touche k.wav')
+    sound23 = loadSound('assets/touche L.wav')
+    sound24 = loadSound('assets/touche M.wav')
+    sound25 = loadSound('assets/touche B.wav')
+    sound26 = loadSound('assets/touche N.wav')
 }
 
 
@@ -80,7 +80,7 @@ function setup() {
     //sound01.setVolume(0.1);
     //sound01.play();
 
-   
+
     // on créee un objet de type FFT (fast fourier transform) pour obtenir une représentation sous forme de waveform.
     sound04FFT = new p5.FFT(0.8, 1024)
     sound04FFT.setInput(sound04) // on 'branche' cet analyseur à notre son 
@@ -101,24 +101,24 @@ function setup() {
 
         var v = p5.Vector.fromAngle(radians(angle - 90));
         v.mult(100);
-        circle.push(v);
+        circles.push(v);
         morph.push(createVector());
     }
     //haut du carré
     for (var x = -50; x < 50; x += 10) {
-        square.push(createVector(x, -50));
+        squares.push(createVector(x, -50));
     }
     //coté droit
     for (var y = -50; y < 50; y += 10) {
-        square.push(createVector(50, y));
+        squares.push(createVector(50, y));
     }
     //en bas
     for (var x = 50; x > -50; x -= 10) {
-        square.push(createVector(x, 50));
+        squares.push(createVector(x, 50));
     }
     //coté gauche
     for (var y = 50; y > -50; y -= 10) {
-        square.push(createVector(-50, y));
+        squares.push(createVector(-50, y));
     }
 
     sound12FFT = new p5.FFT(0.8, 1024)
@@ -143,27 +143,27 @@ function setup() {
 function draw() {
 
     background(0)
-    
+
     // touche A
-    playsound(sound01,65)
-    if(sound01.isPlaying() == true){
+    playsound(sound01, 65)
+    if (sound01.isPlaying() == true) {
         let r = map(sound01.currentTime(), 0, sound01.duration(), 0, width)
         fill(63, 20, 23)
-        stroke(247, 170,170)
-        ellipse(width*0.5, height*0.5, r, r)
+        stroke(247, 170, 170)
+        ellipse(width * 0.5, height * 0.5, r, r)
 
         push()
         stroke(255)
         fill(0)
         let wave = sound01FFT.waveform();
         beginShape()
-        for (let i = 0 ; i < wave.length; i++){
+        for (let i = 0; i < wave.length; i++) {
             let angle = map(i, 0, wave.length, 0, TWO_PI)
-            let rad = map(wave[i],-1,1,0, 200)
-            let x = width*0.5 + rad*cos(angle)
-            let y = height*0.5 + rad*sin(angle)
-            curveVertex(x,y)
-            
+            let rad = map(wave[i], -1, 1, 0, 200)
+            let x = width * 0.5 + rad * cos(angle)
+            let y = height * 0.5 + rad * sin(angle)
+            curveVertex(x, y)
+
 
         }
         endShape(CLOSE)
@@ -172,21 +172,21 @@ function draw() {
     }
 
     //touche Z
-    playsound(sound02,90)
-    if(sound02.isPlaying() == true){
+    playsound(sound02, 90)
+    if (sound02.isPlaying() == true) {
         push()
         //fill(255,0,0)
-        stroke(255,255,0)
+        stroke(255, 255, 0)
         noFill()
         let wave = sound02FFT.waveform();
         beginShape()
-        for (let i = 0 ; i < wave.length; i++){
+        for (let i = 0; i < wave.length; i++) {
             let angle = map(i, 0, wave.length, 0, TWO_PI)
-            let rad = map(wave[i],-1,1,0, height)
-            let x = width*0.5 + rad*cos(angle)
-            let y = height*0.5 + rad*sin(angle)
+            let rad = map(wave[i], -1, 1, 0, height)
+            let x = width * 0.5 + rad * cos(angle)
+            let y = height * 0.5 + rad * sin(angle)
             //ellipse(x, y, 5, 5)
-            curveVertex(x,y)
+            curveVertex(x, y)
 
         }
         endShape(CLOSE)
@@ -194,82 +194,82 @@ function draw() {
         pop()
     }
 
-    
 
 
 
-     // touche E
-    playsound(sound05,69)
-    if(sound05.isPlaying() == true) {
-    push()
-    rectMode(CENTER)
-    let angle = map (sound05.currentTime(), 0, sound05.duration(), 0, TWO_PI)
-    fill(252, 190, 210)
-    noStroke()
-    translate(width*0.9, height*0.25)
-    rotate(angle)
-    rect(0, 0, height*3, height*0.01)
 
-    translate(width*0.25, height*0.25)
-    rotate(angle)
-    rect(0, 0, height*3, height*0.01)
-    
-    translate(width*0.5, height*0.5)
-    rotate(angle)
-    rect(0, 0, height*3, height*0.01)
-    pop()
+    // touche E
+    playsound(sound05, 69)
+    if (sound05.isPlaying() == true) {
+        push()
+        rectMode(CENTER)
+        let angle = map(sound05.currentTime(), 0, sound05.duration(), 0, TWO_PI)
+        fill(252, 190, 210)
+        noStroke()
+        translate(width * 0.9, height * 0.25)
+        rotate(angle)
+        rect(0, 0, height * 3, height * 0.01)
+
+        translate(width * 0.25, height * 0.25)
+        rotate(angle)
+        rect(0, 0, height * 3, height * 0.01)
+
+        translate(width * 0.5, height * 0.5)
+        rotate(angle)
+        rect(0, 0, height * 3, height * 0.01)
+        pop()
     }
 
 
-     // touche R
-    playsound(sound04,82)
+    // touche R
+    playsound(sound04, 82)
     if (sound04.isPlaying() == true) {
         let wave = sound04FFT.waveform();
         noFill()
         stroke(89, 10, 50)
         strokeWeight(5)
         beginShape()
-        for(let i = 0 ; i < wave.length ; i ++){
-        let x = map(i , 0, wave.length, 0, width)
-        let y = map( wave[i], -1, 1, height, 0)
-        curveVertex(x, y)
+        for (let i = 0; i < wave.length; i++) {
+            let x = map(i, 0, wave.length, 0, width)
+            let y = map(wave[i], -1, 1, height, 0)
+            curveVertex(x, y)
         }
         endShape()
-    
+
     }
 
     // touche T
-    playsound(sound03,84)
+    playsound(sound03, 84)
     if (sound03.isPlaying() == true) {
         //map = règle de proportionnalité
         // x est compris entre 0 et 255, je veux qu'il devienne x' entre 10 et 3000 donc
         // x'=map(x, 0, 255, 10, 3000)
         // map (le temps du son que je veux adapter, de 0, à la durée du son, en 0, à la fin de la forme à atteindre)
         let r = map(sound03.currentTime(),
-                    0, sound03.duration()*0.33,
-                    0, width*0.25)
-        r = constrain((r), 0, width*0.25)
-        fill(249, 105, 153, 90) 
-        noStroke()  
+            0, sound03.duration() * 0.33,
+            0, width * 0.25)
+        r = constrain((r), 0, width * 0.25)
+        fill(249, 105, 153, 90)
+        noStroke()
 
         let c = map(sound03.currentTime(),
-                    sound03.duration()*0.33, sound03.duration(),
-                    0, width*0.25)
-        c = constrain(c, 0, width*0.25)
+            sound03.duration() * 0.33, sound03.duration(),
+            0, width * 0.25)
+        c = constrain(c, 0, width * 0.25)
 
 
         rectMode(CENTER)
-        rect(width*0.75, height*0.6, r, r, c,c,c,c)
+        rect(width * 0.75, height * 0.6, r, r, c, c, c, c)
         fill(249, 105, 153, 50)
-        rect(width*0.25, height*0.6, r, r, c,c,c,c)
-        
+        rect(width * 0.25, height * 0.6, r, r, c, c, c, c)
+
         fill(249, 105, 153, 70)
-        rect(width*0.5, height*0.3, r, r, c,c,c,c)
+        rect(width * 0.5, height * 0.3, r, r, c, c, c, c)
 
     }
 
     // touche Q beat grave sound 
-    playsound(sound06,81)
+    playsound(sound06, 81)
     if (sound06.isPlaying() == true) {
         sound06.setVolume(0.6);
         push();
@@ -285,7 +285,7 @@ function draw() {
     }
 
     // touche S
-    playsound(sound07,83)
+    playsound(sound07, 83)
     if (sound07.isPlaying() == true) {
         push();
         var rad = map(sound07.currentTime(), 1, sound07.duration(), 0, width);
@@ -329,12 +329,12 @@ function draw() {
     }
 
     //touche D
-    playsound(sound08,68)
+    playsound(sound08, 68)
     if (sound08.isPlaying() == true) {
         push();
         for (let x = 0; x <= width; x = x + 30) {
             for (let y = 0; y <= height; y = y + 30) {
-                let xAngle = map(mouseX, 0, width, -4 * PI, 4 * PI, true); 
+                let xAngle = map(mouseX, 0, width, -4 * PI, 4 * PI, true);
                 let yAngle = map(mouseY, 0, height, -4 * PI, 4 * PI, true);
 
                 let angle = xAngle * (x / width) + yAngle * (y / height);
@@ -357,12 +357,12 @@ function draw() {
     }
 
     //touche F
-    playsound(sound09,70)
+    playsound(sound09, 70)
     if (sound09.isPlaying() == true) {
         push();
         for (let x = 0; x <= width; x = x + 30) {
             for (let y = 0; y <= height; y = y + 30) {
-                let xAngle = map(mouseX, 0, width, -4 * PI, 4 * PI, true); 
+                let xAngle = map(mouseX, 0, width, -4 * PI, 4 * PI, true);
                 let yAngle = map(mouseY, 0, height, -4 * PI, 4 * PI, true);
 
                 let angle = xAngle * (x / width) + yAngle * (y / height);
@@ -385,7 +385,7 @@ function draw() {
     }
 
     //touche G
-    playsound(sound10,71)
+    playsound(sound10, 71)
     if (sound10.isPlaying() == true) {
         push()
         sound10FFT.analyze();
@@ -429,20 +429,20 @@ function draw() {
         pop();
     }
 
-    
+
     //touche H
     push();
-    playsound(sound11,72)
+    playsound(sound11, 72)
     if (sound11.isPlaying() == true) {
         var totalDistance = 0;
 
-        for (var i = 0; i < circle.length; i++) {
+        for (var i = 0; i < circles.length; i++) {
             var v1;
 
             if (state) {
-                v1 = circle[i];
+                v1 = circles[i];
             } else {
-                v1 = square[i];
+                v1 = squares[i];
             }
 
             var v2 = morph[i];
@@ -463,7 +463,7 @@ function draw() {
 
         beginShape();
         noFill();
-        stroke(random(245,255), random(25,255), random(0,110));
+        stroke(random(245, 255), random(25, 255), random(0, 110));
 
         morph.forEach(v => {
             vertex(v.x, v.y);
@@ -473,7 +473,7 @@ function draw() {
     pop();
 
     //touche J
-    playsound(sound12,74)
+    playsound(sound12, 74)
     if (sound12.isPlaying() == true) {
         push()
 
@@ -543,7 +543,7 @@ function draw() {
     }
 
     //touche W
-    playsound(sound13,87)
+    playsound(sound13, 87)
     if (sound13.isPlaying() == true) {
 
         push();
@@ -599,36 +599,36 @@ function draw() {
     }
 
     //touche X
-    playsound(sound14,88)
+    playsound(sound14, 88)
     if (sound14.isPlaying() == true) {
 
         push();
         var radius = map(sound14.currentTime(), 0, sound14.duration(), 50, width); // pour faire marcher la forme avec la musique
-         fill(107, 71, 91, 95);
-         noStroke();
-         rectMode(CENTER)
+        fill(107, 71, 91, 95);
+        noStroke();
+        rectMode(CENTER)
         rect(width * 0.5, height * 0.5, radius, radius);
-         pop();
+        pop();
     }
 
 
 
-    
+
     //touche C
-    playsound(sound15,67)
-    if(sound15.isPlaying() == true){
+    playsound(sound15, 67)
+    if (sound15.isPlaying() == true) {
         push()
         stroke(232, 135, 167)
         noFill()
         let wave = sound15FFT.waveform();
         beginShape()
-        for (let i = 0 ; i < wave.length; i++){
+        for (let i = 0; i < wave.length; i++) {
             let angle = map(i, 0, wave.length, 0, TWO_PI)
-            let rad = map(wave[i],-1,1,0, height)
-            let x = width*0.25 + rad*cos(angle)
-            let y = height*0.5 + rad*sin(angle)
+            let rad = map(wave[i], -1, 1, 0, height)
+            let x = width * 0.25 + rad * cos(angle)
+            let y = height * 0.5 + rad * sin(angle)
             //ellipse(x, y, 5, 5)
-            curveVertex(x,y)
+            curveVertex(x, y)
 
         }
         endShape(CLOSE)
@@ -636,17 +636,17 @@ function draw() {
         pop()
 
         push()
-        fill(255,0,0)
+        fill(255, 0, 0)
         stroke(232, 135, 167)
         noFill()
         beginShape()
-        for (let i = 0 ; i < wave.length; i++){
+        for (let i = 0; i < wave.length; i++) {
             let angle = map(i, 0, wave.length, 0, TWO_PI)
-            let rad = map(wave[i],-1,1,0, height)
-            let x = width*0.75 + rad*cos(angle)
-            let y = height*0.5 + rad*sin(angle)
+            let rad = map(wave[i], -1, 1, 0, height)
+            let x = width * 0.75 + rad * cos(angle)
+            let y = height * 0.5 + rad * sin(angle)
             //ellipse(x, y, 5, 5)
-            curveVertex(x,y)
+            curveVertex(x, y)
 
         }
         endShape(CLOSE)
@@ -655,33 +655,33 @@ function draw() {
     }
 
     //touche V
-    playsound(sound16,86)
+    playsound(sound16, 86)
     if (sound16.isPlaying() == true) {
-         push()
-            noStroke();
-            fill(255, 255, 0)
-            var theta = map(sound16.currentTime(), 0, sound16.duration(), 0, PI);
-            var ypos1 = height - sin(theta) * height * 0.8;
-            ellipse(width * 0.5, ypos1, 100, 100);
-            pop()
-            push()
-            noStroke();
-            fill(250,210,40)
-            var theta = map(sound16.currentTime(), 0, sound16.duration(), 0, PI);
-            var ypos1 = height - sin(theta) * height * 0.5;
-            ellipse(width * 0.8, ypos1, 100, 100);
-            pop()
-            push()
-            noStroke();
-            fill(250,210,40)
-            var theta = map(sound16.currentTime(), 0, sound16.duration(), 0, PI);
-            var ypos1 = height - sin(theta) * height * 0.4;
-            ellipse(width * 0.2, ypos1, 100, 100);
-            pop()
+        push()
+        noStroke();
+        fill(255, 255, 0)
+        var theta = map(sound16.currentTime(), 0, sound16.duration(), 0, PI);
+        var ypos1 = height - sin(theta) * height * 0.8;
+        ellipse(width * 0.5, ypos1, 100, 100);
+        pop()
+        push()
+        noStroke();
+        fill(250, 210, 40)
+        var theta = map(sound16.currentTime(), 0, sound16.duration(), 0, PI);
+        var ypos1 = height - sin(theta) * height * 0.5;
+        ellipse(width * 0.8, ypos1, 100, 100);
+        pop()
+        push()
+        noStroke();
+        fill(250, 210, 40)
+        var theta = map(sound16.currentTime(), 0, sound16.duration(), 0, PI);
+        var ypos1 = height - sin(theta) * height * 0.4;
+        ellipse(width * 0.2, ypos1, 100, 100);
+        pop()
     }
 
     //touche Y
-    playsound(sound17,89)
+    playsound(sound17, 89)
     if (sound17.isPlaying() == true) {
 
         sound17FFT.analyze();
@@ -738,7 +738,7 @@ function draw() {
     }
 
     //touche U
-    playsound(sound18,85)
+    playsound(sound18, 85)
     if (sound18.isPlaying() == true) {
         push()
         var nsegment = 50
@@ -758,60 +758,60 @@ function draw() {
     }
 
     //touche I
-    playsound(sound19,73)
-    if(sound19.isPlaying() == true) {
+    playsound(sound19, 73)
+    if (sound19.isPlaying() == true) {
         push()
         rectMode(CENTER)
-        let angle = map (sound19.currentTime(), 0, sound19.duration(), 0, TWO_PI)
+        let angle = map(sound19.currentTime(), 0, sound19.duration(), 0, TWO_PI)
         fill(249, 25, 111)
         stroke(255)
-        translate(width*0.5, height*0.5)
+        translate(width * 0.5, height * 0.5)
         rotate(angle)
         triangle(60, 10, 90, 70, 110, 40)
-        
+
         fill(255)
-        stroke(255,255,0)
-        translate(width*0.1, height*0.1)
+        stroke(255, 255, 0)
+        translate(width * 0.1, height * 0.1)
         rotate(angle)
         triangle(60, 10, 90, 70, 110, 40)
-        
-        fill(255,255,0)
+
+        fill(255, 255, 0)
         stroke(249, 25, 111)
-        translate(width*0.1, height*0.1)
+        translate(width * 0.1, height * 0.1)
         rotate(angle)
         triangle(60, 10, 90, 70, 110, 40)
         pop()
     }
 
     //touche O
-    playsound(sound20,79)
-    if(sound20.isPlaying() == true){
+    playsound(sound20, 79)
+    if (sound20.isPlaying() == true) {
         push()
         let r = map(sound20.currentTime(), 0, sound20.duration(), 0, width)
         fill(63, 20, 23, 70)
-        stroke(247, 170,170)
-        ellipse(width*0.5, height*0.5, r, r)
+        stroke(247, 170, 170)
+        ellipse(width * 0.5, height * 0.5, r, r)
         pop()
-        
+
     }
 
     //touche P
-    playsound(sound21,80)
-    if(sound21.isPlaying() == true) {
-    push()
-    rectMode(CENTER)
-    let angle = map (sound21.currentTime(), 0, sound21.duration(), 0, TWO_PI)
-    fill(255,255,255,95)
-    noStroke()
-    translate(width*0.5, height*0.5)
-    rotate(angle)
-    rect(0, 0, height*1, height*1)
-    pop()
+    playsound(sound21, 80)
+    if (sound21.isPlaying() == true) {
+        push()
+        rectMode(CENTER)
+        let angle = map(sound21.currentTime(), 0, sound21.duration(), 0, TWO_PI)
+        fill(255, 255, 255, 95)
+        noStroke()
+        translate(width * 0.5, height * 0.5)
+        rotate(angle)
+        rect(0, 0, height * 1, height * 1)
+        pop()
 
     }
 
     //touche K
-    playsound(sound22,75)
+    playsound(sound22, 75)
     if (sound22.isPlaying() == true) {
         push()
         var nsegment = 80
@@ -826,73 +826,73 @@ function draw() {
 
         }
         pop()
-    
+
     }
 
     //touche L
-    playsound(sound23,76)
+    playsound(sound23, 76)
     if (sound23.isPlaying() == true) {
         push()
         let r = map(sound23.currentTime(),
-                    0, sound23.duration()*0.33,
-                    0, width*0.25)
-        r = constrain((r), 0, width*0.1)
-        fill(0, 255, 0) 
-        noStroke()  
+            0, sound23.duration() * 0.33,
+            0, width * 0.25)
+        r = constrain((r), 0, width * 0.1)
+        fill(0, 255, 0)
+        noStroke()
 
         let c = map(sound23.currentTime(),
-                    sound23.duration()*0.33, sound23.duration(),
-                    0, width*0.25)
-        c = constrain(c, 0, width*0.8)
+            sound23.duration() * 0.33, sound23.duration(),
+            0, width * 0.25)
+        c = constrain(c, 0, width * 0.8)
 
 
         rectMode(CENTER)
         fill(249, 105, 153)
-        rect(width*0.1, height*0.5, r, r, c,c,c,c)
+        rect(width * 0.1, height * 0.5, r, r, c, c, c, c)
 
         fill(89, 10, 50)
-        rect(width*0.2, height*0.5, r, r, c,c,c,c)
-        
+        rect(width * 0.2, height * 0.5, r, r, c, c, c, c)
+
         noFill()
         stroke(255, 255, 0)
-        rect(width*0.3, height*0.5, r, r, c,c,c,c)
+        rect(width * 0.3, height * 0.5, r, r, c, c, c, c)
 
         fill(178, 112, 139)
         noStroke()
-        rect(width*0.4, height*0.5, r, r, c,c,c,c)
+        rect(width * 0.4, height * 0.5, r, r, c, c, c, c)
 
         fill(170, 45, 102)
         noStroke()
-        rect(width*0.5, height*0.5, r, r, c,c,c,c)
+        rect(width * 0.5, height * 0.5, r, r, c, c, c, c)
 
-        fill(249, 105, 153,60)
+        fill(249, 105, 153, 60)
         stroke(170, 45, 102)
         strokeWeight(3)
-        rect(width*0.6, height*0.5, r, r, c,c,c,c)
+        rect(width * 0.6, height * 0.5, r, r, c, c, c, c)
 
-        fill(255,255,0)
+        fill(255, 255, 0)
         noStroke()
-        rect(width*0.7, height*0.5, r, r, c,c,c,c)
+        rect(width * 0.7, height * 0.5, r, r, c, c, c, c)
 
         fill(89, 10, 50)
-        rect(width*0.8, height*0.5, r, r, c,c,c,c)
+        rect(width * 0.8, height * 0.5, r, r, c, c, c, c)
 
         fill(252, 190, 210)
-        stroke(255,255,0)
-        rect(width*0.9, height*0.5, r, r, c,c,c,c)
+        stroke(255, 255, 0)
+        rect(width * 0.9, height * 0.5, r, r, c, c, c, c)
 
         pop()
 
     }
 
     //touche M
-    playsound(sound24,77)
+    playsound(sound24, 77)
     if (sound24.isPlaying() == true) {
         push()
         var long = map(sound24.currentTime(), 0, sound24.duration(), 250, width)
         rectMode(CENTER)
         stroke(255)
-        fill(0,0,0,0)
+        fill(0, 0, 0, 0)
         strokeWeight(5)
         rect(width / 2, height / 2, long, 20);
         noStroke();
@@ -915,7 +915,7 @@ function draw() {
     }
 
     //touche N
-    playsound(sound26,78)
+    playsound(sound26, 78)
     if (sound26.isPlaying() == true) {
         push();
         background(232, 135, 167, 40);
@@ -1070,7 +1070,7 @@ function draw() {
         line(width / 100 - timer, height / 100 - timer, width / 100, height / 100);
         pop();
 
-        
+
     }
 
 
@@ -1084,10 +1084,10 @@ function draw() {
 
 
 
-    
 
 
-   
+
+
 
 
 }
@@ -1095,15 +1095,15 @@ function draw() {
 
 // pour les prochains copier cette base : playsound(sound06, 70)
 //if(sound05.isPlaying() == true) {
- //   push()
+//   push()
 
 
 //pop()
 //}
 
 
-function playsound(sound,keyID){
-    if(keyIsDown(keyID) == true && sound.isPlaying()==false){
+function playsound(sound, keyID) {
+    if (keyIsDown(keyID) == true && sound.isPlaying() == false) {
         sound.play();
     }
 }

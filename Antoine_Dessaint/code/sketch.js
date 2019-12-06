@@ -71,32 +71,32 @@ let steps1 = totalPts1 + 1;
 
 function preload() {
     soundFormats('wav');
-    sound01 = loadSound('../assets2/71_FingerSnap_SP_194_01.wav');
-    sound02 = loadSound('../assets2/71_HatOpenDigi_SP_194_01.wav');
-    sound03 = loadSound('../assets2/71_KickFX_SP_194_01.wav');
-    sound04 = loadSound('../assets2/71_SubSlide_SP_194_01.wav');
-    sound05 = loadSound('../assets2/90_Bbm_EvlvSynth_SP_194_01.wav');
-    sound06 = loadSound('../assets2/Kick_03_665.wav');
-    sound07 = loadSound('../assets2/115_MiraRehBeat_02_665.wav');
-    sound08 = loadSound('../assets2/115_MiraRehBeat_03_665.wav');
-    sound09 = loadSound('../assets2/120_D_D7SpaceArp_01_665.wav');
-    sound10 = loadSound('../assets2/120_D_DsusSweepArp_02_665.wav');
-    sound11 = loadSound('../assets2/120_D_PikeBass_01_665.wav');
-    sound12 = loadSound('../assets2/120_F_ObPad_01_665.wav');
-    sound13 = loadSound('../assets2/125_DrumLoop_SP_194_01.wav');
-    sound14 = loadSound('../assets2/128_Am_HypeSoftArp_01_665.wav');
-    sound15 = loadSound('../assets2/128_Am_SubtleChords_02_665.wav');
-    sound16 = loadSound('../assets2/142_F_FilteredPad_SP_194_02.wav');
-    sound17 = loadSound('../assets2/142_G_RhythmcSynth_194_02.wav');
-    sound18 = loadSound('../assets2/142_Gm_ChoppyPizz_SP_194_01.wav');
-    sound19 = loadSound('../assets2/D_DroneShortBass_01_665.wav');
-    sound20 = loadSound('../assets2/D_FastEnvT1LongBass_01_665.wav');
-    sound21 = loadSound('../assets2/D_SmoothEnvShortBass_01_665.wav');
-    sound22 = loadSound('../assets2/D_SwellSusPortaUpFX_01_665.wav');
-    sound23 = loadSound('../assets2/Dm_Dm7MemoryChorusChrd_01_665.wav');
-    sound24 = loadSound('../assets2/FrenchManglerFX_01_665.wav');
-    sound25 = loadSound('../assets2/ReversePhaseFX_01_665.wav');
-    sound26 = loadSound('../assets2/128_D_StickyBass_01_665.wav')
+    sound01 = loadSound('assets2/71_FingerSnap_SP_194_01.wav');
+    sound02 = loadSound('assets2/71_HatOpenDigi_SP_194_01.wav');
+    sound03 = loadSound('assets2/71_KickFX_SP_194_01.wav');
+    sound04 = loadSound('assets2/71_SubSlide_SP_194_01.wav');
+    sound05 = loadSound('assets2/90_Bbm_EvlvSynth_SP_194_01.wav');
+    sound06 = loadSound('assets2/Kick_03_665.wav');
+    sound07 = loadSound('assets2/115_MiraRehBeat_02_665.wav');
+    sound08 = loadSound('assets2/115_MiraRehBeat_03_665.wav');
+    sound09 = loadSound('assets2/120_D_D7SpaceArp_01_665.wav');
+    sound10 = loadSound('assets2/120_D_DsusSweepArp_02_665.wav');
+    sound11 = loadSound('assets2/120_D_PikeBass_01_665.wav');
+    sound12 = loadSound('assets2/120_F_ObPad_01_665.wav');
+    sound13 = loadSound('assets2/125_DrumLoop_SP_194_01.wav');
+    sound14 = loadSound('assets2/128_Am_HypeSoftArp_01_665.wav');
+    sound15 = loadSound('assets2/128_Am_SubtleChords_02_665.wav');
+    sound16 = loadSound('assets2/142_F_FilteredPad_SP_194_02.wav');
+    sound17 = loadSound('assets2/142_G_RhythmcSynth_194_02.wav');
+    sound18 = loadSound('assets2/142_Gm_ChoppyPizz_SP_194_01.wav');
+    sound19 = loadSound('assets2/D_DroneShortBass_01_665.wav');
+    sound20 = loadSound('assets2/D_FastEnvT1LongBass_01_665.wav');
+    sound21 = loadSound('assets2/D_SmoothEnvShortBass_01_665.wav');
+    sound22 = loadSound('assets2/D_SwellSusPortaUpFX_01_665.wav');
+    sound23 = loadSound('assets2/Dm_Dm7MemoryChorusChrd_01_665.wav');
+    sound24 = loadSound('assets2/FrenchManglerFX_01_665.wav');
+    sound25 = loadSound('assets2/ReversePhaseFX_01_665.wav');
+    sound26 = loadSound('assets2/128_D_StickyBass_01_665.wav')
 
 }
 

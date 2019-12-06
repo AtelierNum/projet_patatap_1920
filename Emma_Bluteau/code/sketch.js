@@ -78,7 +78,7 @@ function preload() {
     sound23 =loadSound('assets/8.wav');
     sound24 =loadSound('assets/1.wav');
     sound25 =loadSound('assets/2.wav');
-    sound26 =loadSound('../assets/427307__bigmanjoe__old-piano-somber-chords2.m4a');
+    sound26 =loadSound('assets/427307__bigmanjoe__old-piano-somber-chords2.m4a');
 }
 
 function setup() {

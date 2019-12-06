@@ -45,32 +45,32 @@ var ytarget = []
 
 //Attribution des sons aux variables
 function preload() {
-    sound01 = loadSound("./assets/son1.wav")   //A 
-    sound02 = loadSound("./assets/son2.wav")   //Z 
-    sound03 = loadSound("./assets/son3.wav")   //E 
-    sound04 = loadSound("./assets/son4.wav")   //R
-    sound05 = loadSound("./assets/son5.wav")   //T
-    sound06 = loadSound("./assets/son6.wav")   //Y 
-    sound07 = loadSound("./assets/son7.wav")   //U 
-    sound08 = loadSound("./assets/son8.wav")   //I 
-    sound09 = loadSound("./assets/son9.wav")   //O 
-    sound10 = loadSound("./assets/son10.wav")  //P 
-    sound11 = loadSound("./assets/son11.wav")  //Q 
-    sound12 = loadSound("./assets/son12.wav")  //S 
-    sound13 = loadSound("./assets/son13.wav")  //D 
-    sound14 = loadSound("./assets/son14.wav")  //F 
-    sound15 = loadSound("./assets/son15.wav")  //G 
-    sound16 = loadSound("./assets/son16.wav")  //H 
-    sound17 = loadSound("./assets/son17.wav")  //J 
-    sound18 = loadSound("./assets/son18.wav")  //K
-    sound19 = loadSound("./assets/son19.wav")  //L 
-    sound20 = loadSound("./assets/son20.wav")  //M 
-    sound21 = loadSound("./assets/son21.wav")  //W 
-    sound22 = loadSound("./assets/son22.wav")  //X 
-    sound23 = loadSound("./assets/son23.wav")  //C
-    sound24 = loadSound("./assets/son24.wav")  //V 
-    sound25 = loadSound("./assets/son25.wav")  //B 
-    sound26 = loadSound("./assets/son26.wav")  //N 
+    sound01 = loadSound("assets/son1.wav")   //A 
+    sound02 = loadSound("assets/son2.wav")   //Z 
+    sound03 = loadSound("assets/son3.wav")   //E 
+    sound04 = loadSound("assets/son4.wav")   //R
+    sound05 = loadSound("assets/son5.wav")   //T
+    sound06 = loadSound("assets/son6.wav")   //Y 
+    sound07 = loadSound("assets/son7.wav")   //U 
+    sound08 = loadSound("assets/son8.wav")   //I 
+    sound09 = loadSound("assets/son9.wav")   //O 
+    sound10 = loadSound("assets/son10.wav")  //P 
+    sound11 = loadSound("assets/son11.wav")  //Q 
+    sound12 = loadSound("assets/son12.wav")  //S 
+    sound13 = loadSound("assets/son13.wav")  //D 
+    sound14 = loadSound("assets/son14.wav")  //F 
+    sound15 = loadSound("assets/son15.wav")  //G 
+    sound16 = loadSound("assets/son16.wav")  //H 
+    sound17 = loadSound("assets/son17.wav")  //J 
+    sound18 = loadSound("assets/son18.wav")  //K
+    sound19 = loadSound("assets/son19.wav")  //L 
+    sound20 = loadSound("assets/son20.wav")  //M 
+    sound21 = loadSound("assets/son21.wav")  //W 
+    sound22 = loadSound("assets/son22.wav")  //X 
+    sound23 = loadSound("assets/son23.wav")  //C
+    sound24 = loadSound("assets/son24.wav")  //V 
+    sound25 = loadSound("assets/son25.wav")  //B 
+    sound26 = loadSound("assets/son26.wav")  //N 
 
 }
 

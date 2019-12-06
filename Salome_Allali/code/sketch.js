@@ -92,37 +92,32 @@ function playSound(sound, keyId) {
 
 function preload() {
 
-  sound01 = loadSound("../assets/son_06.wav");
-  sound02 = loadSound("../assets/son_02.wav");
-  
-  
-  sound05 = loadSound("../assets/son_13.wav");
-  sound06 = loadSound("../assets/son_03.wav");
-  
-  sound08 = loadSound("../assets/son_05.wav");
-  sound09 = loadSound("../assets/electro03.mp3");
-  sound10 = loadSound("../assets/son_20.wav");
-  sound11 = loadSound("../assets/son_07.wav");
-  sound12 = loadSound("../assets/son_08.wav");
-  sound13 = loadSound("../assets/son_23.wav");
-  sound14 = loadSound("../assets/son_09.wav");
-  sound15 = loadSound("../assets/son_10.wav");
-  sound16 = loadSound("../assets/son_01.wav");
-  sound17 = loadSound("../assets/son_14.wav");
-  sound18 = loadSound("../assets/tech.wav");
-  sound19 = loadSound("../assets/son_24.wav");
-  sound20 = loadSound("../assets/son_12.wav");
-  
-  sound22 = loadSound("../assets/son_15.wav");
-  sound23 = loadSound("../assets/son_16.wav");
-  sound24 = loadSound("../assets/son_17.wav");
-  sound25 = loadSound("../assets/son_18.wav");
-  sound26 = loadSound("../assets/son_19.wav");
-
-  sound28 = loadSound("../assets/son_21.wav");
-  sound29 = loadSound("../assets/son_04.wav");
-  sound30 = loadSound("../assets/electro02.mp3");
-  sound31 = loadSound("../assets/son_19.wav");
+  sound01 = loadSound("assets/son_06.wav");
+  sound02 = loadSound("assets/son_02.wav");
+  sound05 = loadSound("assets/son_13.wav");
+  sound06 = loadSound("assets/son_03.wav");
+  sound08 = loadSound("assets/son_05.wav");
+  sound09 = loadSound("assets/electro03.mp3");
+  sound10 = loadSound("assets/son_20.wav");
+  sound11 = loadSound("assets/son_07.wav");
+  sound12 = loadSound("assets/son_08.wav");
+  sound13 = loadSound("assets/son_23.wav");
+  sound14 = loadSound("assets/son_09.wav");
+  sound15 = loadSound("assets/son_10.wav");
+  sound16 = loadSound("assets/son_01.wav");
+  sound17 = loadSound("assets/son_14.wav");
+  sound18 = loadSound("assets/tech.wav");
+  sound19 = loadSound("assets/son_24.wav");
+  sound20 = loadSound("assets/son_12.wav"); 
+  sound22 = loadSound("assets/son_15.wav");
+  sound23 = loadSound("assets/son_16.wav");
+  sound24 = loadSound("assets/son_17.wav");
+  sound25 = loadSound("assets/son_18.wav");
+  sound26 = loadSound("assets/son_19.wav");
+  sound28 = loadSound("assets/son_21.wav");
+  sound29 = loadSound("assets/son_04.wav");
+  sound30 = loadSound("assets/electro02.mp3");
+  sound31 = loadSound("assets/son_19.wav");
 
 
 }

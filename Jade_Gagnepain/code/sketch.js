@@ -102,32 +102,32 @@ var rounded = 0
 
 function preload() {
   soundFormats('mp3', 'ogg');
-  sound01 = loadSound('../Assets/female voice.wav');
-  sound02 = loadSound('../Assets/musique1.mp3');
-  sound03 = loadSound('../Assets/shortbeam.wav');
-  sound04 = loadSound('../Assets/411643__inspectorj__pop-low-a-h6-ms.wav');
-  sound05 = loadSound('../Assets/whoosh.wav');
-  sound06 = loadSound('../Assets/osy.wav');
-  sound07 = loadSound('../Assets/male voice.wav');
-  sound08 = loadSound('../Assets/shortbass.wav');
-  sound09 = loadSound('../Assets/shot-sound.wav');
-  sound10 = loadSound('../Assets/bass1.wav');
-  sound11 = loadSound('../Assets/male voice.wav'); //changer son//
-  sound12 = loadSound('../Assets/beep.wav');
-  sound13 = loadSound('../Assets/cry.wav');
-  sound14 = loadSound('../Assets/bubble-big.wav');
-  sound15 = loadSound('../Assets/male answer.wav');
-  sound16 = loadSound('../Assets/phone beep.wav');
-  sound17 = loadSound('../Assets/laser gun.wav');
-  sound18 = loadSound('../Assets/bass2.wav');
-  sound19 = loadSound('../Assets/musique-2.mp3');
-  sound20 = loadSound('../Assets/laugh.wav');
-  sound21 = loadSound('../Assets/string.mp3');
-  sound22 = loadSound('../Assets/bubble.wav');
-  sound23 = loadSound('../Assets/upanddown.wav');
-  sound24 = loadSound('../Assets/254386__jagadamba__male-voice-oh-no.wav');
-  sound25 = loadSound('../Assets/riseandfall.wav');
-  sound26 = loadSound('../Assets/musique-3.mp3');
+  sound01 = loadSound('Assets/female voice.wav');
+  sound02 = loadSound('Assets/musique1.mp3');
+  sound03 = loadSound('Assets/shortbeam.wav');
+  sound04 = loadSound('Assets/411643__inspectorj__pop-low-a-h6-ms.wav');
+  sound05 = loadSound('Assets/whoosh.wav');
+  sound06 = loadSound('Assets/osy.wav');
+  sound07 = loadSound('Assets/male voice.wav');
+  sound08 = loadSound('Assets/shortbass.wav');
+  sound09 = loadSound('Assets/shot-sound.wav');
+  sound10 = loadSound('Assets/bass1.wav');
+  sound11 = loadSound('Assets/male voice.wav'); //changer son//
+  sound12 = loadSound('Assets/beep.wav');
+  sound13 = loadSound('Assets/cry.wav');
+  sound14 = loadSound('Assets/bubble-big.wav');
+  sound15 = loadSound('Assets/male answer.wav');
+  sound16 = loadSound('Assets/phone beep.wav');
+  sound17 = loadSound('Assets/laser gun.wav');
+  sound18 = loadSound('Assets/bass2.wav');
+  sound19 = loadSound('Assets/musique-2.mp3');
+  sound20 = loadSound('Assets/laugh.wav');
+  sound21 = loadSound('Assets/string.mp3');
+  sound22 = loadSound('Assets/bubble.wav');
+  sound23 = loadSound('Assets/upanddown.wav');
+  sound24 = loadSound('Assets/254386__jagadamba__male-voice-oh-no.wav');
+  sound25 = loadSound('Assets/riseandfall.wav');
+  sound26 = loadSound('Assets/musique-3.mp3');
 }
 
 function setup() {

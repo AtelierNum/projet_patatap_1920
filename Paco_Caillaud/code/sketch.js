@@ -160,7 +160,8 @@ function setup() {
     background(0);
 
     // Fonction permettant de changer la densité des pixels
-    pixelDensity(0.2);
+   // pixelDensity(0.2);
+   pixelDensity(1);
 
     // Attribution des amplitudes de chaque son à la variable SonXAmp
     Son1Amp = new p5.Amplitude();

@@ -38,32 +38,32 @@ let sound26
 // all the sounds 
 function preload() {
 
-    sound01 = loadSound('sound01.wav');
-    sound02 = loadSound('sound02.wav');
-    sound03 = loadSound('sound03.mp3');
-    sound04 = loadSound('sound04.wav');
-    sound05 = loadSound('sound05.wav');
-    sound06 = loadSound('sound06.wav');
-    sound07 = loadSound('sound07.wav');
-    sound08 = loadSound('sound08.mp3');
-    sound09 = loadSound('sound09.wav');
-    sound10 = loadSound('sound10.wav');
-    sound11 = loadSound('sound11.wav');
-    sound12 = loadSound('sound12.mp3');
-    sound13 = loadSound('sound13.wav');
-    sound14 = loadSound('sound14.mp3');
-    sound15 = loadSound('sound15.wav');
-    sound16 = loadSound('sound16.mp3');
-    sound17 = loadSound('sound17.mp3');
-    sound18 = loadSound('sound18.mp3');
-    sound19 = loadSound('sound19.wav');
-    sound20 = loadSound('sound20.wav');
-    sound21 = loadSound('sound21.wav');
-    sound22 = loadSound('sound22.wav');
-    sound23 = loadSound('sound23.wav');
-    sound24 = loadSound('sound24.wav');
-    sound25 = loadSound('sound25.wav');
-    sound26 = loadSound('sound26.wav');
+    sound01 = loadSound('assets/sound01.wav');
+    sound02 = loadSound('assets/sound02.wav');
+    sound03 = loadSound('assets/sound03.mp3');
+    sound04 = loadSound('assets/sound04.wav');
+    sound05 = loadSound('assets/sound05.wav');
+    sound06 = loadSound('assets/sound06.wav');
+    sound07 = loadSound('assets/sound07.wav');
+    sound08 = loadSound('assets/sound08.mp3');
+    sound09 = loadSound('assets/sound09.wav');
+    sound10 = loadSound('assets/sound10.wav');
+    sound11 = loadSound('assets/sound11.wav');
+    sound12 = loadSound('assets/sound12.mp3');
+    sound13 = loadSound('assets/sound13.wav');
+    sound14 = loadSound('assets/sound14.mp3');
+    sound15 = loadSound('assets/sound15.wav');
+    sound16 = loadSound('assets/sound16.mp3');
+    sound17 = loadSound('assets/sound17.mp3');
+    sound18 = loadSound('assets/sound18.mp3');
+    sound19 = loadSound('assets/sound19.wav');
+    sound20 = loadSound('assets/sound20.wav');
+    sound21 = loadSound('assets/sound21.wav');
+    sound22 = loadSound('assets/sound22.wav');
+    sound23 = loadSound('assets/sound23.wav');
+    sound24 = loadSound('assets/sound24.wav');
+    sound25 = loadSound('assets/sound25.wav');
+    sound26 = loadSound('assets/sound26.wav');
 
 }
 
