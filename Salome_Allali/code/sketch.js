@@ -101,13 +101,13 @@ function preload() {
   sound10 = loadSound("assets/son_20.wav");
   sound11 = loadSound("assets/son_07.wav");
   sound12 = loadSound("assets/son_08.wav");
-  sound13 = loadSound("assets/son_23.wav");
+  sound13 = loadSound("assets/son_231.wav");
   sound14 = loadSound("assets/son_09.wav");
   sound15 = loadSound("assets/son_10.wav");
   sound16 = loadSound("assets/son_01.wav");
   sound17 = loadSound("assets/son_14.wav");
   sound18 = loadSound("assets/tech.wav");
-  sound19 = loadSound("assets/son_24.wav");
+  sound19 = loadSound("assets/son_241.wav");
   sound20 = loadSound("assets/son_12.wav"); 
   sound22 = loadSound("assets/son_15.wav");
   sound23 = loadSound("assets/son_16.wav");
