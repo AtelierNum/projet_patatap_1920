@@ -21,9 +21,9 @@ let s22 = 0.0;
 
 function preload() {
 
-  Mur = loadSound('assets/mur.wav');
-  Shoes = loadSound('assets/chaussure.wav');
-  plug = loadSound('assets/prise.wav');
+  Mur = loadSound('assets/Mur.wav');
+  Shoes = loadSound('assets/Chaussure.wav');
+  plug = loadSound('assets/Prise.wav');
   roulette = loadSound('assets/Rideau_roulette.wav');
   green = loadSound('assets/Font_vert.wav');
   carte = loadSound('assets/Carte son.wav');
