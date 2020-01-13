@@ -419,11 +419,14 @@ function draw() {
       var x = map(i, 0, wavef.length, width * 0.20, width * 0.80);
       var y = map(wavef[i], -0.8, 0.8, 0, height);
       curveVertex(x, y);
-      endShape();
-      pop();
+      
+      
 
-      pop();
+      
     }
+    endShape();
+    pop();
+    pop();
   }
 
   // touche P
