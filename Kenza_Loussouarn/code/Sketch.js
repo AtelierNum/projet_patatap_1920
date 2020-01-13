@@ -79,55 +79,55 @@ function preload() {
 }
 
 function setup() {
-    createCanvas(windowWidth, windowHeight)  
+    createCanvas(windowWidth, windowHeight)
 
 
-sound01FFT= new p5.FFT(0.8, 1024); // analyse de notre son
-sound01FFT.setInput(sound01);
+    sound01FFT = new p5.FFT(0.8, 1024); // analyse de notre son
+    sound01FFT.setInput(sound01);
 
-pg = createGraphics(windowWidth, windowHeight) 
-pg.pixelDensity(1)
+    pg = createGraphics(windowWidth, windowHeight)
+    pg.pixelDensity(1)
 
-for (var i = 0; i < 50; i++) {
+    for (var i = 0; i < 50; i++) {
 
-    xpos.push(random(0, width))
-    ypos.push(random(0, -height))
-    xtarget.push(random(width))
-    ytarget.push(random(height))
-}
+        xpos.push(random(0, width))
+        ypos.push(random(0, -height))
+        xtarget.push(random(width))
+        ytarget.push(random(height))
+    }
 
-sound07FFT= new p5.FFT(0.8, 1024); // analyse de notre son
-sound07FFT.setInput(sound07);
+    sound07FFT = new p5.FFT(0.8, 1024); // analyse de notre son
+    sound07FFT.setInput(sound07);
 
-diameter10 = height - 10;
+    diameter10 = height - 10;
 
-sound11FFT = new p5.FFT(0.8, 1024)
-sound11FFT.setInput(sound11)
+    sound11FFT = new p5.FFT(0.8, 1024)
+    sound11FFT.setInput(sound11)
 
-sound12Amp = new p5.Amplitude()
-sound12Amp.setInput(sound12)
-sound12Amp.toggleNormalize()
+    sound12Amp = new p5.Amplitude()
+    sound12Amp.setInput(sound12)
+    sound12Amp.toggleNormalize()
 
-sound15Amp = new p5.Amplitude()
-sound15Amp.setInput(sound15)
+    sound15Amp = new p5.Amplitude()
+    sound15Amp.setInput(sound15)
 
-sound17FFT = new p5.FFT(0.8, 16)
-sound17FFT.setInput(sound17)
+    sound17FFT = new p5.FFT(0.8, 16)
+    sound17FFT.setInput(sound17)
 
-sound23FFT = new p5.FFT(0.8, 1024);
-sound23FFT.setInput(sound23);
+    sound23FFT = new p5.FFT(0.8, 1024);
+    sound23FFT.setInput(sound23);
 
 
 }
 
 
 function draw() {
-    
-background(185, 243, 238)
 
-//a
-playSound(sound01, 65)
-if (sound01.isPlaying() == true) {
+    background(185, 243, 238)
+
+    //a
+    playSound(sound01, 65)
+    if (sound01.isPlaying() == true) {
         push()
         var waveform = sound01FFT.waveform();
         noFill();
@@ -145,27 +145,27 @@ if (sound01.isPlaying() == true) {
 
 
     //z
-playSound(sound02, 90)
-if (sound02.isPlaying() == true) {
-    push()
-    noStroke()
-    var nsegment = 270
-    var ncurrentsegment = map(sound02.currentTime(), 0, sound02.duration(), 0, nsegment + 1)
+    playSound(sound02, 90)
+    if (sound02.isPlaying() == true) {
+        push()
+        noStroke()
+        var nsegment = 270
+        var ncurrentsegment = map(sound02.currentTime(), 0, sound02.duration(), 0, nsegment + 1)
 
-    for (var i = 0; i < ncurrentsegment; i++) {
-        stroke(360);
-        strokeWeight(1)
-        var angle = map(i, 0, nsegment, 0, TWO_PI);
-        var x = width * .1 + height * .9 * cos(angle);
-        var y = height * 0.8 + height * 0.2 * sin(angle);
-        line(width * 0.8, height * 0.2, x, y);
+        for (var i = 0; i < ncurrentsegment; i++) {
+            stroke(360);
+            strokeWeight(1)
+            var angle = map(i, 0, nsegment, 0, TWO_PI);
+            var x = width * .1 + height * .9 * cos(angle);
+            var y = height * 0.8 + height * 0.2 * sin(angle);
+            line(width * 0.8, height * 0.2, x, y);
+        }
+        pop()
+
     }
-    pop()
-
-}
 
 
-//e
+    //e
     playSound(sound03, 69)
     if (sound03.isPlaying() == true) {
         push();
@@ -186,15 +186,15 @@ if (sound02.isPlaying() == true) {
         noStroke()
         rectMode(CENTER)
         let angle = map(sound04.currentTime(), 0, sound04.duration(), 0, TWO_PI)
-        fill(219,174,251)
+        fill(219, 174, 251)
         translate(width * 0.5, height * 0.5)
         rotate(angle)
         rect(0, 0, height * 0.39, width * 0.41)
         pop()
 
-    
+
     }
-//t
+    //t
     playSound(sound05, 84)
     if (sound05.isPlaying() == true) {
         push()
@@ -211,8 +211,8 @@ if (sound02.isPlaying() == true) {
         }
         pop()
     }
-    
-//y
+
+    //y
     playSound(sound06, 89)
     if (sound06.isPlaying() == true) {
         push();
@@ -231,29 +231,29 @@ if (sound02.isPlaying() == true) {
         }
 
         pop();
-    
+
     }
 
-//u
-    playSound(sound07,85)
+    //u
+    playSound(sound07, 85)
     if (sound07.isPlaying(85) == true) {
         push();
         var wavef = sound07FFT.waveform();
         noFill();
-        beginShape(); 
+        beginShape();
         stroke(2174, 202, 251);
         strokeWeight(3);
-        for (var i = 0; i < wavef.length; i++) { 
-            var x = map(wavef[i], -0.11, 0.11, 0, height); 
-            var y = map(i, 0, wavef.length, 0, width); 
-            curveVertex(x, y); 
+        for (var i = 0; i < wavef.length; i++) {
+            var x = map(wavef[i], -0.11, 0.11, 0, height);
+            var y = map(i, 0, wavef.length, 0, width);
+            curveVertex(x, y);
         }
         endShape();
         pop();
 
-    
+
     }
-//i
+    //i
     playSound(sound08, 73)
     if (sound08.isPlaying() == true) {
         fill(237, 174, 251)
@@ -261,7 +261,7 @@ if (sound02.isPlaying() == true) {
         noStroke()
     }
 
-//o
+    //o
     playSound(sound09, 79)
     if (sound09.isPlaying() == true) {
         push()
@@ -285,9 +285,9 @@ if (sound02.isPlaying() == true) {
         angle1 += 2;
         angle2 += 3;
         pop()
-    
+
     }
-//p
+    //p
     playSound(sound10, 80)
     if (sound10.isPlaying() == true) {
         push()
@@ -306,7 +306,7 @@ if (sound02.isPlaying() == true) {
         angle10 += 0.05;
         pop()
     }
-//q
+    //q
     playSound(sound11, 81)
     if (sound11.isPlaying() == true) {
         push()
@@ -319,15 +319,15 @@ if (sound02.isPlaying() == true) {
         strokeWeight(10);
         for (var i = 0; i < waveform.length; i++) {
             smooth();
-            var x = map(i, 0, waveform.length, 0, width) * 5; 
-            var y = map(waveform[i], -2, 2, 0, height); 
-            
+            var x = map(i, 0, waveform.length, 0, width) * 5;
+            var y = map(waveform[i], -2, 2, 0, height);
+
             curveVertex(x, y);
         }
         endShape();
         pop()
     }
-//s
+    //s
     playSound(sound12, 83)
     if (sound12.isPlaying() == true) {
         push()
@@ -335,54 +335,54 @@ if (sound02.isPlaying() == true) {
         fill(204, 255, 255);
         var lvl = sound12Amp.getLevel() * 10;
         var nsegment = 500
-        var ncurrentsegment = (map(sound12.currentTime(), 0, sound12.duration(), 0, nsegment + 10)) 
+        var ncurrentsegment = (map(sound12.currentTime(), 0, sound12.duration(), 0, nsegment + 10))
         for (var i = 0; i < ncurrentsegment; i++) {
-            
+
             var angle8 = map(i, 0, nsegment, 0, TWO_PI);
             var x = width * 0.5 + height * 0.45 * sin(angle8)
             var y = height * 0.5 + height * 0.45 * cos(angle8)
-        
+
             ellipse(x, y, 40, 40)
         }
         pop()
     }
-//d
+    //d
     playSound(sound13, 68)
     if (sound13.isPlaying() == true) {
         push()
         noStroke();
         fill(251, 221, 174)
-    
+
         var lvl = sound13.getLevel() * 10;
         var nsegment = 10
         var ncurrentsegment = (map(sound13.currentTime(), 0, sound13.duration(), 0, nsegment + 10))
         for (var i = 0; i < ncurrentsegment; i++) {
-       
+
             var angle8 = map(i, 0, nsegment, 0, TWO_PI);
             var x = width * 0.5 + height * 0.45 * cos(angle8)
             var y = height * 0.5 + height * 0.45 * sin(angle8)
             ellipse(x, y, 40, 40)
         }
         pop()
-    
+
     }
-//f
+    //f
     playSound(sound14, 70)
     if (sound14.isPlaying() == true) {
         push()
         var radius = map(sound14.currentTime(), 0, sound14.duration(), 50, width)
         noStroke();
-        fill(236, 212, 245 )
+        fill(236, 212, 245)
 
         ellipse(width * 0.5, height * 0.5, radius, radius)
         pop()
     }
-//g
+    //g
     playSound(sound15, 71)
     if (sound15.isPlaying() == true) {
         push()
         noStroke()
-        fill (245, 212, 238 )
+        fill(245, 212, 238)
         var amp = sound15Amp.getLevel()
         var rot = map(amp, 0, 1, 0, 3 + PI)
         rectMode(CENTER)
@@ -395,23 +395,23 @@ if (sound02.isPlaying() == true) {
         translate(0.25 * width, 0.25 * height)
         rotate(rot)
         noStroke()
-        fill (245, 212, 238 )
+        fill(245, 212, 238)
         rect(0, 0, height * 0.648, height * 0.1081)
         pop()
         push()
         rectMode(CENTER)
         noStroke()
-        fill (245, 212, 238 )
+        fill(245, 212, 238)
         translate(0.75 * width, 0.75 * height)
         rotate(rot)
         rect(0, 0, height * 0.648, height * 0.1081)
         pop()
     }
-//h
+    //h
     playSound(sound16, 72)
     if (sound16.isPlaying() == true) {
         push()
-        fill(212, 222, 245 )
+        fill(212, 222, 245)
         rotate(frameCount / -80.0);
         noStroke();
         for (let i = 0; i < 20; i++) {
@@ -421,14 +421,14 @@ if (sound02.isPlaying() == true) {
 
         pop()
     }
-//j
+    //j
     playSound(sound17, 74)
-    if (sound17.isPlaying() ==true) {
+    if (sound17.isPlaying() == true) {
         var spectrum = sound17FFT.analyze();
 
         beginShape();
         for (i = 0; i < spectrum.length; i++) {
-         fill (176, 173, 241 )
+            fill(176, 173, 241)
             stroke(255)
             var x = map(i, 0, spectrum.length, 0, width * 1.2)
             var y = map(spectrum[i], 0, 255, height * 1.5, height * 0.05)
@@ -437,21 +437,21 @@ if (sound02.isPlaying() == true) {
         endShape();
     }
 
-//k
+    //k
     playSound(sound18, 75)
     if (sound18.isPlaying() == true) {
         push();
         var timer = map(sound18.currentTime(), 0, 0.2, 50, height * 0.001);
-        fill(194, 173, 241 );
+        fill(194, 173, 241);
         noStroke();
         ellipse(width * 0.5, height * 0.5, width / 4.8, width / 4.8);
-        fill(212, 173, 241 );
+        fill(212, 173, 241);
         ellipse(width * 0.5 - timer, height * 0.5 - timer, width / 4.8, width / 4.8);
-        pop();  
+        pop();
     }
-//l
+    //l
     playSound(sound19, 76)
-    if (sound19.isPlaying() ==true) {
+    if (sound19.isPlaying() == true) {
         push()
         noStroke();
         var rotation = map(sound19.currentTime(), 0, sound19.duration(), 0, PI)
@@ -470,46 +470,46 @@ if (sound02.isPlaying() == true) {
         translate(width * 0.5, height * 0.5);
         rotate(rotation);
 
-        fill(252, 158, 158 );
+        fill(252, 158, 158);
         rect(0, 0, width * 0.5, width * 0.005);
         pop()
 
-        }
-//m
+    }
+    //m
     playSound(sound20, 77)
-    if (sound20.isPlaying() ==true) {
-    push();
-    var timer = map(sound20.currentTime(), 0, 0.08, 30, height * 0.01);
+    if (sound20.isPlaying() == true) {
+        push();
+        var timer = map(sound20.currentTime(), 0, 0.08, 30, height * 0.01);
 
-    push();
-    stroke(237, 121, 223 );
-    strokeWeight(40);
-    translate(width * 0.5, height * 0.5);
-    line(width / 100 - timer, height / 100 - timer, width / 100, height / 100);
-    pop();
+        push();
+        stroke(237, 121, 223);
+        strokeWeight(40);
+        translate(width * 0.5, height * 0.5);
+        line(width / 100 - timer, height / 100 - timer, width / 100, height / 100);
+        pop();
 
 
-    push();
-    stroke(237, 121, 223 );
-    strokeWeight(40);
-    translate(width * 0.2, height * 0.5);
-    line(width / 100 - timer, height / 100 - timer, width / 100, height / 100);
-    pop();
+        push();
+        stroke(237, 121, 223);
+        strokeWeight(40);
+        translate(width * 0.2, height * 0.5);
+        line(width / 100 - timer, height / 100 - timer, width / 100, height / 100);
+        pop();
 
-    push();
-    stroke(237, 121, 223 );
-    strokeWeight(40);
-    translate(width * 0.8, height * 0.5);
-    line(width / 100 - timer, height / 100 - timer, width / 100, height / 100);
-    pop();
-    pop();
+        push();
+        stroke(237, 121, 223);
+        strokeWeight(40);
+        translate(width * 0.8, height * 0.5);
+        line(width / 100 - timer, height / 100 - timer, width / 100, height / 100);
+        pop();
+        pop();
     }
 
-//w
+    //w
     playSound(sound21, 87)
-    if (sound21.isPlaying() ==true) {
+    if (sound21.isPlaying() == true) {
         push()
-        fill(249, 196, 174  )
+        fill(249, 196, 174)
         rotate(frameCount / -40.0);
         noStroke();
         for (let i = 0; i < 10; i++) {
@@ -519,14 +519,14 @@ if (sound02.isPlaying() == true) {
 
         pop()
     }
-//x
+    //x
     playSound(sound22, 88)
-    if (sound22.isPlaying() ==true) {
+    if (sound22.isPlaying() == true) {
         push()
         noStroke()
         var nsegment = 270
         var ncurrentsegment = map(sound22.currentTime(), 0, sound22.duration(), 0, nsegment + 1)
-    
+
         for (var i = 0; i < ncurrentsegment; i++) {
             stroke(360);
             strokeWeight(1)
@@ -537,15 +537,15 @@ if (sound02.isPlaying() == true) {
         }
         pop()
     }
-//c
-    playSound (sound23, 67)
-    if (sound23.isPlaying() ==true) {
+    //c
+    playSound(sound23, 67)
+    if (sound23.isPlaying() == true) {
         push();
         var waveform = sound23FFT.waveform();
         beginShape();
-        stroke(156, 229, 250 );
+        stroke(156, 229, 250);
         strokeWeight(15);
-        fill(156, 229, 250 );
+        fill(156, 229, 250);
         for (var i = 0; i < waveform.length; i++) {
             var x = map(i, 0, waveform.length, 0, width); // (création ligne parcourue par la boucle for)
             var y = map(0.5 * waveform[i], -1, 1, 0, height * 0.3); //hauteur des ondes en fonction du son
@@ -554,9 +554,9 @@ if (sound02.isPlaying() == true) {
         endShape();
         pop();
     }
-//v
-    playSound (sound24, 86)
-    if (sound24.isPlaying() ==true) {
+    //v
+    playSound(sound24, 86)
+    if (sound24.isPlaying() == true) {
         push();
         var rotation = map(sound24.currentTime(), 0, sound24.duration(), 0, PI)
 
@@ -564,7 +564,7 @@ if (sound02.isPlaying() == true) {
         translate(width * 0.5, height * 0.5)
         rotate(rotation)
 
-        fill(244, 255, 136 )
+        fill(244, 255, 136)
         noStroke()
         beginShape();
         vertex(50, 10);
@@ -577,9 +577,9 @@ if (sound02.isPlaying() == true) {
 
         pop();
     }
-//b
-    playSound (sound25, 66)
-    if (sound25.isPlaying() ==true) {
+    //b
+    playSound(sound25, 66)
+    if (sound25.isPlaying() == true) {
         push();
         var nsegment = 50;
         var ncurrentsegment = (map(sound25.currentTime(), 0, sound25.duration(), 0, nsegment + 1));
@@ -597,18 +597,18 @@ if (sound02.isPlaying() == true) {
         pop();
     }
 
-    playSound (sound26, 78)
-    if (sound26.isPlaying() ==true) {
+    playSound(sound26, 78)
+    if (sound26.isPlaying() == true) {
         push()
         noStroke()
         rectMode(CENTER)
         let angle = map(sound26.currentTime(), 0, sound26.duration(), 0, TWO_PI)
-        fill(206, 160, 239 )
+        fill(206, 160, 239)
         translate(width * 0.3, height * 0.4)
         rotate(angle)
         rect(0, 0, height * 0.42, width * 0.28)
         pop()
-    
+
     }
 
 }
@@ -616,12 +616,12 @@ if (sound02.isPlaying() == true) {
 
 
 function windowResized() {
-resizeCanvas(windowWidth,windowHeight)
+    resizeCanvas(windowWidth, windowHeight)
 
 }
 
 function playSound(sound, keyId) {
-if (keyIsDown(keyId) == true && sound.isPlaying() == false) {
-sound.play();
-}
+    if (keyIsDown(keyId) == true && sound.isPlaying() == false) {
+        sound.play();
+    }
 }

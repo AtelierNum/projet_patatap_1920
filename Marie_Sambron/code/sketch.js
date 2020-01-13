@@ -151,6 +151,28 @@ function snowflake() {
 function draw() {
     background(0,40)  // light effect, soft effect 
 
+      // touche C
+    // cherry blossoms fall - sound: falling leaves 
+    playSound(sound23, 67)
+    if (sound23.isPlaying() == true) {
+        push()
+        background('black');
+        let t = frameCount / 60; // update time
+      
+        // create a random number of snowflakes each frame
+        for (let i = 0; i < random(5); i++) {
+          snowflakes.push(new snowflake()); // append snowflake object
+        }
+      
+        
+        for (let flake of snowflakes) {
+          flake.update(t); // update snowflake position
+          flake.display(); // draw snowflake
+        }
+
+      pop()
+    }
+
     // touche A 
     // circle expands - sound: bird
     playSound(sound01, 65)
@@ -160,6 +182,8 @@ function draw() {
         noStroke()
         ellipse(width * 0.5, height * 0.5, r, r)
     }
+
+    
 
     // touche Z
     // circle shrinks - sound: traditional Asian percussion
@@ -793,26 +817,7 @@ if (sound20.isPlaying() == true) {
 (pop)
 
 
-    // touche C
-    // cherry blossoms fall - sound: falling leaves 
-    playSound(sound23, 67)
-    if (sound23.isPlaying() == true) {
-        background('black');
-        let t = frameCount / 60; // update time
-      
-        // create a random number of snowflakes each frame
-        for (let i = 0; i < random(5); i++) {
-          snowflakes.push(new snowflake()); // append snowflake object
-        }
-      
-        
-        for (let flake of snowflakes) {
-          flake.update(t); // update snowflake position
-          flake.display(); // draw snowflake
-        }
-
-      
-    }
+  
 
 
 

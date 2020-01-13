@@ -217,7 +217,7 @@ Mon univers repose sur le jeux vidéo Minecraft, j'ai repris un son sur la plupa
 
 <img src="Kenza_Loussouarn/gif.gif" width="400" height="240" />
 
-[Cliquez ici pour jouer](https://ateliernum.github.io/projet_patatap_1920/Kenza_Loussouarn/code/Index.html)
+        [Cliquez ici pour jouer](https://ateliernum.github.io/projet_patatap_1920/Kenza_Loussouarn/code/Index.html)
 
 Je voulais que l’univers de mon Patatap inspire une ambiance relaxante à ceux qui jouent avec.
 J’ai en effet ajouté des bruits de mer, d’oiseaux, de pas, du vent… Dans le but de nous plonger dans une atmosphère de balade.
