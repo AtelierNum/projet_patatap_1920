@@ -32,7 +32,7 @@ let graphic
 
 
 
-function preload() {   //charger les sons
+function preload() { //charger les sons
     soundA = loadSound("assets/soundA.wav")
     soundB = loadSound("assets/soundB.wav")
     soundC = loadSound("assets/soundC.wav")
@@ -65,8 +65,8 @@ function preload() {   //charger les sons
 
 
 function setup() {
-    createCanvas(windowWidth, windowHeight)   
-    graphicc = createGraphics(width, height)   //createGraphic permet de créer un calque pour les animations pour lesquelles je ne souhaite pas l'influance du background qui se renouvelle
+    createCanvas(windowWidth, windowHeight)
+    graphicc = createGraphics(width, height) //createGraphic permet de créer un calque pour les animations pour lesquelles je ne souhaite pas l'influance du background qui se renouvelle
     graphicc.clear()
 
     graphicm = createGraphics(width, height)
@@ -87,7 +87,7 @@ function setup() {
     background(0);
 }
 
-function playSound(sound, keyId) {                 //fonction qui permet de simplifier l'initialisation touches et sons
+function playSound(sound, keyId) { //fonction qui permet de simplifier l'initialisation touches et sons
     if (keyIsDown(keyId) == true && sound.isPlaying() == false) {
         sound.play();
     }
@@ -117,13 +117,13 @@ let xd = 0
 let re = 10
 
 //touche F
-let yf=0
+let yf = 0
 
 //touche G
-let xg =0
-let yg =0
-let timeg = 0 
-                    //ici toutes mes variables (je finis le nom de chaques variables par la lettre qui correspond)
+let xg = 0
+let yg = 0
+let timeg = 0
+//ici toutes mes variables (je finis le nom de chaques variables par la lettre qui correspond)
 //touche H
 let speedh = 10
 let timeh = 100
@@ -137,7 +137,7 @@ let xj = 0;
 var timej = 0;
 
 //touche K
-let xk=200
+let xk = 200
 
 //touche L
 let timel = 255
@@ -158,7 +158,7 @@ var yq = 0
 var timeq = 0
 
 //touche U
-let xu=0
+let xu = 0
 
 //touche S
 let xs = 0
@@ -169,11 +169,11 @@ let times = 0
 let xv = 0
 
 //touche Y
-let xy=2000
-let yy=0
+let xy = 2000
+let yy = 0
 
 //touche X
-let xx=18
+let xx = 18
 
 // touche Z
 var speed2 = 0
@@ -186,41 +186,43 @@ var ge = 255
 
 function draw() {
     noStroke()
-    fill(0, back)                   //le background et un rectangle pour permettre si je le veux de jouer avec l'opacité de celui-ci pour certaines animations
+    fill(0, back) //le background et un rectangle pour permettre si je le veux de jouer avec l'opacité de celui-ci pour certaines animations
     rect(0, 0, width, height)
-     
+
     // touche U                     //les lettres U et V sont en haut du code car j'ai utliser des formes de même couleur de fond dans les animation pour créer les formes que je voulais
-     playSound(soundU, 85)
-     if (soundU.isPlaying() == true) {
-         push()
- fill(random(255), 0, random(255))
- ellipse(width-200,height-200,180,180)     //pus()h et pop() sont utilisé à chaques debut et fin de codage d'une lettre
- 
- if (xu<=200){
-     fill(0)
- ellipse(width-xu,height-xu,180,180)
- xu=xu+10}
- pop()
- 
-     if(xu>200){fill(0)
-         ellipse(width-200,height-200,200,200)   //cette ellipse (couleur du fond) viens cacher l'autre
-     }
-     }else(xu=0)
- 
-     // touche V
-     playSound(soundV, 86)
-     if (soundV.isPlaying() == true) {
-         push()
-         if (xv < 2) {
-             fill(random(255), 0, random(255))
-             arc(width / 2, height / 2, 300, 300, 0, PI * xv + 0.0000001)    //arc qui se ferme
- 
-             xv = xv + 0.04
-             pop()
-         }
-     } else {
-         xv = 0
-     }
+    playSound(soundU, 85)
+    if (soundU.isPlaying() == true) {
+        push()
+        fill(random(255), 0, random(255))
+        ellipse(width - 200, height - 200, 180, 180) //pus()h et pop() sont utilisé à chaques debut et fin de codage d'une lettre
+
+        if (xu <= 200) {
+            fill(0)
+            ellipse(width - xu, height - xu, 180, 180)
+            xu = xu + 10
+        }
+        pop()
+
+        if (xu > 200) {
+            fill(0)
+            ellipse(width - 200, height - 200, 200, 200) //cette ellipse (couleur du fond) viens cacher l'autre
+        }
+    } else(xu = 0)
+
+    // touche V
+    playSound(soundV, 86)
+    if (soundV.isPlaying() == true) {
+        push()
+        if (xv < 2) {
+            fill(random(255), 0, random(255))
+            arc(width / 2, height / 2, 300, 300, 0, PI * xv + 0.0000001) //arc qui se ferme
+
+            xv = xv + 0.04
+            pop()
+        }
+    } else {
+        xv = 0
+    }
 
     // touche P                   
     playSound(soundP, 80)
@@ -233,7 +235,7 @@ function draw() {
         fill(random(255), 0, random(255))
         ellipse(0, 0, 500, 500)
         fill(0)
-        rect(0, xp - 500, 500, 500)     //ici ce sont 2 carrés de même couleur que le fond qui viennent jouer avec le cercle
+        rect(0, xp - 500, 500, 500) //ici ce sont 2 carrés de même couleur que le fond qui viennent jouer avec le cercle
         rect(0, xp - 1600, 500, 500)
 
         xp = xp + 54
@@ -242,99 +244,101 @@ function draw() {
         }
         pop()
     }
-// touche M
-playSound(soundM, 77)
-if (soundM.isPlaying() == true) {
-    push()
-    graphicm.strokeWeight(2);                       //animation mis sur un calque pour éviter l'effacement
-    graphicm.stroke(random(255), 0, random(255));
+    // touche M
+    playSound(soundM, 77)
+    if (soundM.isPlaying() == true) {
+        push()
+        graphicm.strokeWeight(2); //animation mis sur un calque pour éviter l'effacement
+        graphicm.stroke(random(255), 0, random(255));
 
 
 
-    for (let xm = 0; xm < width; xm = xm + 4) {
+        for (let xm = 0; xm < width; xm = xm + 4) {
 
 
 
-        graphicm.noFill();
+            graphicm.noFill();
 
-        graphicm.ellipse(xm, pm * noise(xm / 300, timem) * 4, 1, 1);
+            graphicm.ellipse(xm, pm * noise(xm / 300, timem) * 4, 1, 1);
 
 
 
-        pm = pm + 0.01;
+            pm = pm + 0.01;
+        }
+
+
+        image(graphicm, 0, 0)
+        timem = timem + 0.001;
+        pop()
+    } else {
+        timem = 0;
+        graphicm.background(0)
+        pm = 110;
+
     }
-
-
-    image(graphicm, 0, 0)
-    timem = timem + 0.001;
-    pop()
-} else {
-    timem = 0;
-    graphicm.background(0)
-    pm = 110;
-
-}
     // touche A
-    playSound(soundA, 65)                 //translate et rotate sont ici utilisé pour que l'ellipse lorsqu'elle se réduit reste à peu près stable d'un coté à cause du mode CORNER
+    playSound(soundA, 65) //translate et rotate sont ici utilisé pour que l'ellipse lorsqu'elle se réduit reste à peu près stable d'un coté à cause du mode CORNER
     if (soundA.isPlaying() == true) {
         push()
         fill(255, 0, 0)
         ellipseMode(CORNER)
-        translate(width+1, height+1)
+        translate(width + 1, height + 1)
         rotate(PI)
         if (xa > 100) {
-            ellipse(width / 2 - 80-za, height / 2 - 80-za, xa, xa)
+            ellipse(width / 2 - 80 - za, height / 2 - 80 - za, xa, xa)
             stroke(255)
             strokeWeight(10)
             line(width / 2, height / 2, random(width / 2), random(height / 2))
 
         }
         xa = xa - 5
-za=za-0.5
+        za = za - 0.5
 
-pop()
+        pop()
     } else {
         ellipseMode(CENTER);
         xa = 700;
         noStroke()
-        za=0
+        za = 0
     }
 
     // touche B
     playSound(soundB, 66)
     if (soundB.isPlaying() == true) {
-        
-        fill(0,4);
-        rect(0,0,width,height);
+
+        fill(0, 4);
+        rect(0, 0, width, height);
         fill(random(255), 0, random(255));
         noStroke();
-        for (let y=db/2;y<height;y =y+ db){
-        let angle= radians(frameCount+y/2);
-        let x = width/2+width/2*sin(angle)/sin(y);   //tatonnage avec des sin() afin de trouver des formes interressante 
-        ellipse(x,y,db+10,db+10);
-      
+        for (let y = db / 2; y < height; y = y + db) {
+            let angle = radians(frameCount + y / 2);
+            let x = width / 2 + width / 2 * sin(angle) / sin(y); //tatonnage avec des sin() afin de trouver des formes interressante 
+            ellipse(x, y, db + 10, db + 10);
+
         }
     }
 
-    
+
 
     // touche D
     playSound(soundD, 68)
     push()
     if (soundD.isPlaying() == true) {
-fill(255,0,0)
-ellipse(200,200,170,170)
-if(xd>7){
-    fill(0,0,255)                          //tatonnage afin de faire coincider l'apparition des formes et le son
-    rect(width-200,height/3,150,150)
-    if(xd>15){
-        fill(255,0,255)
-ellipse(width/2,height/2,300,300)
+        fill(255, 0, 0)
+        ellipse(200, 200, 170, 170)
+        if (xd > 7) {
+            fill(0, 0, 255) //tatonnage afin de faire coincider l'apparition des formes et le son
+            rect(width - 200, height / 3, 150, 150)
+            if (xd > 15) {
+                fill(255, 0, 255)
+                ellipse(width / 2, height / 2, 300, 300)
+            }
+        }
+        xd = xd + 0.6
+        pop()
+    } else {
+        xd = 0
     }
-}
-xd=xd+0.6
-pop()
-    }else{xd=0}
 
     // touche E 
     playSound(soundE, 69)
@@ -343,7 +347,7 @@ pop()
         translate(width / 2, height / 2);
         graphice.stroke(random(255), 0, random(255))
         graphice.noFill();
-        rotate(re);                                  
+        rotate(re);
         graphice.ellipse(re, re, 500, 500);
 
         re = re + 0.5;
@@ -357,44 +361,49 @@ pop()
     playSound(soundF, 70)
     if (soundF.isPlaying() == true) {
         push()
-for(let xf=0;xf<width;xf=xf+20){
-    stroke(random(255), 0, random(255))
-    noFill()
-    ellipse(width/2,height/2,xf,yf)
-    yf=yf+0.5
-    pop()
-} }else{yf=0}
+        for (let xf = 0; xf < width; xf = xf + 20) {
+            stroke(random(255), 0, random(255))
+            noFill()
+            ellipse(width / 2, height / 2, xf, yf)
+            yf = yf + 0.5
+            pop()
+        }
+    } else {
+        yf = 0
+    }
 
     // touche G
     playSound(soundG, 71)
     if (soundG.isPlaying() == true) {
-        push() 
-        fill(255, 0, 255)         
-if (timeg>3){                                        //tatonnage afin de faire coincider l'apparition des formes et le son
-    rect(100,100,200,700)
-    if (timeg>300){                     
-        rect(400,100,200,700)
-        fill(random(255),0,255)
-        if (timeg>600){
-rect(700,100,200,700)
-if(timeg>700){
-    rect(800,100,200,700)
-    if(timeg>800){
-        rect(900,100,200,700)
-       pop()
+        push()
+        fill(255, 0, 255)
+        if (timeg > 3) { //tatonnage afin de faire coincider l'apparition des formes et le son
+            rect(100, 100, 200, 700)
+            if (timeg > 300) {
+                rect(400, 100, 200, 700)
+                fill(random(255), 0, 255)
+                if (timeg > 600) {
+                    rect(700, 100, 200, 700)
+                    if (timeg > 700) {
+                        rect(800, 100, 200, 700)
+                        if (timeg > 800) {
+                            rect(900, 100, 200, 700)
+                            pop()
+                        }
+                    }
+                }
+            }
+        }
+        timeg = timeg + 6
+    } else {
+        timeg = 0
     }
-}
-    }
-    }
-}
-timeg=timeg+6
-    }else{timeg=0}
 
     // touche H
     playSound(soundH, 72)
     if (soundH.isPlaying() == true) {
         push()
-        fill(random(255), 0, random(255), timeh)      //boucle for afin de faire se rencontrer le plus de formes
+        fill(random(255), 0, random(255), timeh) //boucle for afin de faire se rencontrer le plus de formes
         stroke(random(255), 0, random(255))
         for (let xh = 0; xh < width + 100; xh = xh + 100) {
             for (let yh = 0; yh < height + 100; yh = yh + 100) {
@@ -415,7 +424,7 @@ timeg=timeg+6
 
 
         strokeWeight(5)
-        translate(map(sin(xi) * sin(yi) * sin(45), -1, 1, 100, width - 100), map(sin(yi) * sin(yi) * -sin(xi), -1, 1, 100, height - 100));     //utilisation de la fonction map afin que le tracé de sin() soit bien visible sur tout l'écran
+        translate(map(sin(xi) * sin(yi) * sin(45), -1, 1, 100, width - 100), map(sin(yi) * sin(yi) * -sin(xi), -1, 1, 100, height - 100)); //utilisation de la fonction map afin que le tracé de sin() soit bien visible sur tout l'écran
         fill(random(255), 0, random(255))
         ellipse(0, 0, noise(xi / 0.01) * 300, noise(xi / 0.02) * 300)
         xi = xi + 0.05
@@ -426,14 +435,14 @@ timeg=timeg+6
     // touche J
     playSound(soundJ, 74)
     if (soundJ.isPlaying() == true) {
-        
 
-graphicj.noFill()
+
+        graphicj.noFill()
         graphicj.stroke(random(255), 0, random(255));
         if (xj < 1000 * width) {
 
             noFill()
-            graphicj.ellipse(xj, noise(timej, timej + 78) * (height + 300) - height / 6, 30, 30)     //utilisation de la fonction noise() afin de créer un faux hasard "smooth"
+            graphicj.ellipse(xj, noise(timej, timej + 78) * (height + 300) - height / 6, 30, 30) //utilisation de la fonction noise() afin de créer un faux hasard "smooth"
             graphicj.ellipse(xj / 2, noise(timej + 36, timej) * (height + 300) - height / 6, 30, 30)
             graphicj.ellipse(xj / 1.2, noise(timej + 367, timej) * (height + 300) - height / 6, 30, 30)
             graphicj.ellipse(xj / 2.2, noise(timej, timej + 108) * (height + 300) - height / 6, 30, 30)
@@ -442,12 +451,12 @@ graphicj.noFill()
             graphicj.ellipse(xj / 1.34, noise(timej, timej + 228) * (height + 300) - height / 4, 30, 30)
             graphicj.ellipse(xj / 1.9, noise(timej + 360, timej) * (height + 300) - height / 4, 30, 30)
             graphicj.ellipse(xj / 1.6, noise(timej + 37, timej) * (height + 300) - height / 4, 30, 30)
-image(graphicj,0,0)
+            image(graphicj, 0, 0)
             xj = xj + 10;
             timej = timej + 0.01;
         }
 
-       
+
 
 
     } else {
@@ -461,22 +470,24 @@ image(graphicj,0,0)
     playSound(soundK, 75)
     if (soundK.isPlaying() == true) {
         push()
-        fill(255, 0, 0,100)
-ellipse(width/2-xk,height/2,100,100)          //un jeu de transparence 
-fill(0,0,255,100)
-ellipse(width/2+xk,height/2,100,100)
-xk=xk-7
-pop()
-    }else{xk=200}
+        fill(255, 0, 0, 100)
+        ellipse(width / 2 - xk, height / 2, 100, 100) //un jeu de transparence 
+        fill(0, 0, 255, 100)
+        ellipse(width / 2 + xk, height / 2, 100, 100)
+        xk = xk - 7
+        pop()
+    } else {
+        xk = 200
+    }
 
     // touche L
     playSound(soundL, 76)
     if (soundL.isPlaying() == true) {
         push()
-        fill(noise(timel)*100, 0, noise(timel)*100, timel)
+        fill(noise(timel) * 100, 0, noise(timel) * 100, timel)
         stroke(random(255), 0, random(255))
         rectMode(CENTER)
-        for (let xl = 0; xl < width + 100; xl = xl + 60) {          //boucle for afin de faire se rencontrer le plus de formes
+        for (let xl = 0; xl < width + 100; xl = xl + 60) { //boucle for afin de faire se rencontrer le plus de formes
             for (let yl = 0; yl < height + 100; yl = yl + 60) {
 
                 rect(xl, yl, timel, timel)
@@ -489,13 +500,13 @@ pop()
         timel = 0;
     }
 
-    
+
     // touche N
     playSound(soundN, 78)
     if (soundN.isPlaying() == true) {
         push()
         strokeWeight(6);
-        stroke(random(255), 0, random(255));                           //grésillement de random()
+        stroke(random(255), 0, random(255)); //grésillement de random()
         noFill();
         line(random(width), random(height), random(width), random(height));
 
@@ -507,17 +518,17 @@ pop()
     // touche O 
     playSound(soundO, 79)
     if (soundO.isPlaying() == true) {
-        
 
-        fill(0,4);
-        rect(0,0,width,height);                        //cette utilisation de sin() peut faire penser à de la 3D
+
+        fill(0, 4);
+        rect(0, 0, width, height); //cette utilisation de sin() peut faire penser à de la 3D
         fill(random(255), 0, random(255));
         noStroke();
-        for (let y=doo/2;y<height;y =y+ doo){
-        let angle= radians(frameCount+y/2*sin(y));
-        let x = width/2+width/2*sin(angle)*sin(y);
-        ellipse(x,y,doo,doo+300);
-       
+        for (let y = doo / 2; y < height; y = y + doo) {
+            let angle = radians(frameCount + y / 2 * sin(y));
+            let x = width / 2 + width / 2 * sin(angle) * sin(y);
+            ellipse(x, y, doo, doo + 300);
+
         }
     }
 
@@ -532,7 +543,7 @@ pop()
             yq = yq + 0.09
             timeq = timeq + 0.02
             graphicq.noStroke()
-            graphicq.fill(noise(yq)*255, 0, noise(xq)*255)        //nouvelle utilisation de noise() pour un changement de couleur "smooth"
+            graphicq.fill(noise(yq) * 255, 0, noise(xq) * 255) //nouvelle utilisation de noise() pour un changement de couleur "smooth"
             graphicq.ellipse(xq, noise(yq, timeq) * 300, 50, 50)
             image(graphicq, 0, 0)
 
@@ -554,7 +565,7 @@ pop()
         strokeWeight(5)
         stroke(random(255), 0, random(255))
         translate(map(sin(xi) * sin(yi) * sin(yi + 26), -1, 1, 100, width - 100), map(sin(yi - 23) * sin(yi) * -sin(xi), -1, 1, 100, height - 100), 200, 40);
-        
+
         ellipse(0, 0, 40, 40)
         rotate(xi)
         xi = xi + 0.03
@@ -614,12 +625,12 @@ pop()
 
     }
 
-   
+
     // touche W
     playSound(soundW, 87)
     if (soundW.isPlaying() == true) {
         push()
-        for (let xw = 10; xw < 20; xw++) {                                 //des millier de triangle afin de représenter le brisage d'une vitre
+        for (let xw = 10; xw < 20; xw++) { //des millier de triangle afin de représenter le brisage d'une vitre
             for (let yw = 10; yw < 20; yw++) {
                 noFill()
                 stroke(random(255), 0, random(255))
@@ -632,36 +643,40 @@ pop()
         }
 
 
-pop()
+        pop()
 
     }
 
     // touche X
     playSound(soundX, 88)
     if (soundX.isPlaying() == true) {
-     push()
-     for(let x =0;x<width;x=x+100){
-         fill(255,0,255)
-        rect(x,height/3,10,noise(xx)*600)
-        fill(0,0,255)
-        ellipse(x+50,noise(xx)*400+200,50,50)
-     }
-     xx=xx+0.01
-     pop()
-}else{xx=18}
+        push()
+        for (let x = 0; x < width; x = x + 100) {
+            fill(255, 0, 255)
+            rect(x, height / 3, 10, noise(xx) * 600)
+            fill(0, 0, 255)
+            ellipse(x + 50, noise(xx) * 400 + 200, 50, 50)
+        }
+        xx = xx + 0.01
+        pop()
+    } else {
+        xx = 18
+    }
 
     // touche Y
     playSound(soundY, 89)
     if (soundY.isPlaying() == true) {
         push()
         fill(random(255), 0, random(255))
-rect(xy,height/2,width+100,yy)
-xy=xy-90
-yy=yy+1
+        rect(xy, height / 2, width + 100, yy)
+        xy = xy - 90
+        yy = yy + 1
 
-pop()
-    }else{xy=2000
-    yy=0}
+        pop()
+    } else {
+        xy = 2000
+        yy = 0
+    }
 
     // touche C
     playSound(soundC, 67)
@@ -676,7 +691,7 @@ pop()
             fill(noise(xc) * 255, 100, 255);
 
             noStroke();
-            rect(-1, 300, 5, noise(yc) * nc);     //cette fois ci la fonction noise() joue sur la taille de chaques barres qui tourne autour du centre de l'écran
+            rect(-1, 300, 5, noise(yc) * nc); //cette fois ci la fonction noise() joue sur la taille de chaques barres qui tourne autour du centre de l'écran
             nc = nc + 0.1;
             xc = xc + 0.041;
             yc = yc + 0.05;
@@ -696,7 +711,7 @@ pop()
 
     // touche Z
 
-    playSound(soundZ, 90)                    
+    playSound(soundZ, 90)
 
     if (soundZ.isPlaying() == true) {
         push()
@@ -835,7 +850,7 @@ pop()
 
 
 function windowResized() {
-    resizeCanvas(windowWidth, windowHeight)  //redimensionner le canvas 
+    resizeCanvas(windowWidth, windowHeight) //redimensionner le canvas 
     background(56, 120, 219, 45);
 
 }

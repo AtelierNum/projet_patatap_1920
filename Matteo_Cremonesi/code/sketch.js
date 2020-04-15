@@ -68,7 +68,7 @@ function setup() {
  background(0);
 
  
- for (var i = 0; i < 50; i++) {
+ for (var i = 0; i < 500; i++) {
     // ajouter des éléments au dessus de notre canvas
     xpos.push(random(0, width))
     ypos.push(random(0, -height))
@@ -675,7 +675,7 @@ function draw() {
         }
         pop();
     }
-    playSound(son24, 86)// V //
+    playSound(son24, 86)//TOUCHE V //
     if (son24.isPlaying() == true) {
         push()
         var t = map(son24.currentTime(), 0, son24.duration() * 0.75, 0, 1)
@@ -688,7 +688,7 @@ function draw() {
             var y = lerp(ypos[i], ytarget[i], t)
             noStroke();
             for (let i = 0; i < 10; i++) {
-                ellipse(x, y, height * 0.0324, height * 0.0216, height * 0.2162);
+                ellipse(x, y, height * 0.0324, height * 0.0216, );
                 rotate(PI / 5);
             }
         }
